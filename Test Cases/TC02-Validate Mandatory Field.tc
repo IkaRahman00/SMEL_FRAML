@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Verify status code 400 -Bad Request when user leave mandatory field blank</description>
+   <name>TC02-Validate Mandatory Field</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>a9cae34e-6a2c-4667-9821-afb8b3edd375</testCaseGuid>
+</TestCaseEntity>

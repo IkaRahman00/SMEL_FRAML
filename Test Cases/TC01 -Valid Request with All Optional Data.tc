@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Verify that the response status is 200.&#xd;
+Check that the response body contains the expected risk score, vectors, and other optional data if applicable.</description>
+   <name>TC01 -Valid Request with All Optional Data</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>b013aad3-d3d3-4470-82e7-42debed4bfc7</testCaseGuid>
+</TestCaseEntity>

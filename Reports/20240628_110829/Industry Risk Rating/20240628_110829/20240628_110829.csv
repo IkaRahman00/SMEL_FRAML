@@ -1,0 +1,19 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Industry Risk Rating,,,,28-06-2024 11:08:43,28-06-2024 11:08:49,6.041s,PASSED
+,,,,,,,
+Test Cases/FBSD-211-Valid Request with All Optional Data,,"Verify that the response status is 200.
+Check that the response body contains the expected risk score, vectors, and other optional data if applicable.",,28-06-2024 11:08:43,28-06-2024 11:08:49,5.395s,PASSED
+"response = sendRequest(findTestObject(""Industry Risk Rating/Industry Prohibited Check""))",,Send API request,,28-06-2024 11:08:44,28-06-2024 11:08:48,4.760s,PASSED
+"verifyResponseStatusCode(response, 200)",,Verify Status Reponse Code= 200,,28-06-2024 11:08:48,28-06-2024 11:08:48,0.037s,PASSED
+"e_id = getElementPropertyValue(response, ""event_id"")",,Verify JSON element (event id),,28-06-2024 11:08:48,28-06-2024 11:08:48,0.180s,PASSED
+println(e_id),,,,28-06-2024 11:08:48,28-06-2024 11:08:48,0.006s,PASSED
+"e_stat = getElementPropertyValue(response, ""evaluation_status"")",,Verify JSON element evaluation status,,28-06-2024 11:08:48,28-06-2024 11:08:49,0.074s,PASSED
+println(e_stat),,,,28-06-2024 11:08:49,28-06-2024 11:08:49,0.001s,PASSED
+,,,,,,,
+Test Cases/FBSD-211-Validate Mandatory Field,,Verify status code 400 -Bad Request when user leave mandatory field blank,,28-06-2024 11:08:49,28-06-2024 11:08:49,0.361s,PASSED
+"response = sendRequest(findTestObject(""Industry Risk Rating/Industry Mandatory Field""))",,Send API request,,28-06-2024 11:08:49,28-06-2024 11:08:49,0.055s,PASSED
+"verifyResponseStatusCode(response, 400)",,Verify Status Reponse Code= 400,,28-06-2024 11:08:49,28-06-2024 11:08:49,0.004s,PASSED
+"code = getElementPropertyValue(response, ""code"")",,,,28-06-2024 11:08:49,28-06-2024 11:08:49,0.045s,PASSED
+println(code),,,,28-06-2024 11:08:49,28-06-2024 11:08:49,0.003s,PASSED
+"e_message = getElementPropertyValue(response, ""message"")",,Verify error message,,28-06-2024 11:08:49,28-06-2024 11:08:49,0.040s,PASSED
+println(e_message),,,,28-06-2024 11:08:49,28-06-2024 11:08:49,0.001s,PASSED

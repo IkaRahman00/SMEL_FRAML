@@ -1,0 +1,19 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Industry Risk Rating,,,,27-06-2024 17:23:08,27-06-2024 17:23:15,6.807s,PASSED
+,,,,,,,
+Test Cases/FBSD-211-Valid Request with All Optional Data,,"Verify that the response status is 200.
+Check that the response body contains the expected risk score, vectors, and other optional data if applicable.",,27-06-2024 17:23:09,27-06-2024 17:23:15,6.008s,PASSED
+"response = sendRequest(findTestObject(""Industry Risk Rating/Industry Prohibited Check""))",,Send API request,,27-06-2024 17:23:09,27-06-2024 17:23:14,5.191s,PASSED
+"verifyResponseStatusCode(response, 200)",,Verify Status Reponse Code= 200,,27-06-2024 17:23:14,27-06-2024 17:23:14,0.036s,PASSED
+"e_id = getElementPropertyValue(response, ""event_id"")",,Verify JSON element (event id),,27-06-2024 17:23:14,27-06-2024 17:23:14,0.149s,PASSED
+println(e_id),,,,27-06-2024 17:23:14,27-06-2024 17:23:14,0.006s,PASSED
+"e_stat = getElementPropertyValue(response, ""evaluation_status"")",,Verify JSON element evaluation status,,27-06-2024 17:23:14,27-06-2024 17:23:15,0.082s,PASSED
+println(e_stat),,,,27-06-2024 17:23:15,27-06-2024 17:23:15,0.002s,PASSED
+,,,,,,,
+Test Cases/FBSD-211-Validate Mandatory Field,,,,27-06-2024 17:23:15,27-06-2024 17:23:15,0.445s,PASSED
+"response = sendRequest(findTestObject(""Industry Risk Rating/Industry Mandatory Field""))",,Send API request,,27-06-2024 17:23:15,27-06-2024 17:23:15,0.065s,PASSED
+"verifyResponseStatusCode(response, 400)",,Verify Status Reponse Code= 400,,27-06-2024 17:23:15,27-06-2024 17:23:15,0.006s,PASSED
+"code = getElementPropertyValue(response, ""code"")",,,,27-06-2024 17:23:15,27-06-2024 17:23:15,0.075s,PASSED
+println(code),,,,27-06-2024 17:23:15,27-06-2024 17:23:15,0.002s,PASSED
+"e_message = getElementPropertyValue(response, ""message"")",,verify error message,,27-06-2024 17:23:15,27-06-2024 17:23:15,0.074s,PASSED
+println(e_message),,,,27-06-2024 17:23:15,27-06-2024 17:23:15,0.002s,PASSED

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Send API and validate if response returns the correct data type</description>
+   <name>TC03-Validate Response Data Type</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>5eee94a4-ca06-4022-8ae5-e231c967a03f</testCaseGuid>
+</TestCaseEntity>

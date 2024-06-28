@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Industry Risk Rating" time="5.838" tests="2" failures="0" errors="0">
+   <testsuite name="Industry Risk Rating" tests="2" failures="0" errors="0" time="5.838" skipped="0" timestamp="27-06-2024T17:28:10" hostname="Zulaikha_118633 - 118633-001L-MY.adl.local" id="Test Suites/Industry Risk Rating">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform"/>
+         <property name="logFolder" value="C:\\Users\\zulaikha_118633\\git\\SMEL_FRAML\\Reports\\20240627_172803\\Industry Risk Rating\\20240627_172803"/>
+         <property name="logFiles" value="C:\\Users\\zulaikha_118633\\git\\SMEL_FRAML\\Reports\\20240627_172803\\Industry Risk Rating\\20240627_172803\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Zulaikha_118633 - 118633-001L-MY.adl.local"/>
+         <property name="hostAddress" value="192.168.0.104"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="9.6.0.217"/>
+      </properties>
+      <testcase name="Test Cases/FBSD-211-Valid Request with All Optional Data" time="4.982" classname="Test Cases/FBSD-211-Valid Request with All Optional Data" status="PASSED">
+         <system-out><![CDATA[27-06-2024T17:28:11 - [TEST_CASE][PASSED] - Test Cases/FBSD-211-Valid Request with All Optional Data: Test Cases/FBSD-211-Valid Request with All Optional Data
+
+27-06-2024T17:28:11 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("Industry Risk Rating/Industry Prohibited Check")): Send request successfully
+
+27-06-2024T17:28:15 - [MESSAGE][INFO] - HAR: C:\Users\zulaikha_118633\git\SMEL_FRAML\Reports\20240627_172803\Industry Risk Rating\20240627_172803\requests\main\0.har
+
+27-06-2024T17:28:15 - [MESSAGE][PASSED] - Send request successfully
+
+27-06-2024T17:28:15 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, 200): Verify response status code successfully
+
+27-06-2024T17:28:15 - [MESSAGE][PASSED] - Verify response status code successfully
+
+27-06-2024T17:28:15 - [TEST_STEP][PASSED] - e_id = getElementPropertyValue(response, "event_id"): null
+
+27-06-2024T17:28:15 - [TEST_STEP][PASSED] - println(e_id): null
+
+27-06-2024T17:28:16 - [TEST_STEP][PASSED] - e_stat = getElementPropertyValue(response, "evaluation_status"): null
+
+27-06-2024T17:28:16 - [TEST_STEP][PASSED] - println(e_stat): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/FBSD-211-Validate Mandatory Field" time="0.461" classname="Test Cases/FBSD-211-Validate Mandatory Field" status="PASSED">
+         <system-out><![CDATA[27-06-2024T17:28:16 - [TEST_CASE][PASSED] - Test Cases/FBSD-211-Validate Mandatory Field: Test Cases/FBSD-211-Validate Mandatory Field
+
+27-06-2024T17:28:16 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("Industry Risk Rating/Industry Mandatory Field")): Send request successfully
+
+27-06-2024T17:28:16 - [MESSAGE][INFO] - HAR: C:\Users\zulaikha_118633\git\SMEL_FRAML\Reports\20240627_172803\Industry Risk Rating\20240627_172803\requests\main\1.har
+
+27-06-2024T17:28:16 - [MESSAGE][PASSED] - Send request successfully
+
+27-06-2024T17:28:16 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, 400): Verify response status code successfully
+
+27-06-2024T17:28:16 - [MESSAGE][PASSED] - Verify response status code successfully
+
+27-06-2024T17:28:16 - [TEST_STEP][PASSED] - code = getElementPropertyValue(response, "code"): null
+
+27-06-2024T17:28:16 - [TEST_STEP][PASSED] - println(code): null
+
+27-06-2024T17:28:16 - [TEST_STEP][PASSED] - e_message = getElementPropertyValue(response, "message"): null
+
+27-06-2024T17:28:16 - [TEST_STEP][PASSED] - println(e_message): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[27-06-2024T17:28:10 - [TEST_SUITE][PASSED] - Industry Risk Rating: Test Cases/FBSD-211-Validate Mandatory Field]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

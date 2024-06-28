@@ -1,0 +1,32 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Industry Risk Rating,,,,28-06-2024 14:26:22,28-06-2024 14:26:27,5.142s,PASSED
+,,,,,,,
+Test Cases/TC01 -Valid Request with All Optional Data,,"Verify that the response status is 200.
+Check that the response body contains the expected risk score, vectors, and other optional data if applicable.",,28-06-2024 14:26:22,28-06-2024 14:26:26,3.834s,PASSED
+"response = sendRequest(findTestObject(""Industry Risk Rating/Industry Prohibited Check""))",,Send API request,,28-06-2024 14:26:22,28-06-2024 14:26:25,3.172s,PASSED
+"verifyResponseStatusCode(response, 200)",,Verify Status Reponse Code= 200,,28-06-2024 14:26:25,28-06-2024 14:26:25,0.039s,PASSED
+"e_id = getElementPropertyValue(response, ""event_id"")",,Verify JSON element (event id),,28-06-2024 14:26:25,28-06-2024 14:26:26,0.167s,PASSED
+println(e_id),,,,28-06-2024 14:26:26,28-06-2024 14:26:26,0.006s,PASSED
+"e_stat = getElementPropertyValue(response, ""evaluation_status"")",,Verify JSON element evaluation status,,28-06-2024 14:26:26,28-06-2024 14:26:26,0.048s,PASSED
+println(e_stat),,,,28-06-2024 14:26:26,28-06-2024 14:26:26,0.001s,PASSED
+,,,,,,,
+Test Cases/TC02-Validate Mandatory Field,,Verify status code 400 -Bad Request when user leave mandatory field blank,,28-06-2024 14:26:26,28-06-2024 14:26:26,0.394s,PASSED
+"response = sendRequest(findTestObject(""Industry Risk Rating/Industry Mandatory Field""))",,Send API request,,28-06-2024 14:26:26,28-06-2024 14:26:26,0.056s,PASSED
+"verifyResponseStatusCode(response, 400)",,Verify Status Reponse Code= 400,,28-06-2024 14:26:26,28-06-2024 14:26:26,0.005s,PASSED
+"code = getElementPropertyValue(response, ""code"")",,,,28-06-2024 14:26:26,28-06-2024 14:26:26,0.110s,PASSED
+println(code),,,,28-06-2024 14:26:26,28-06-2024 14:26:26,0.003s,PASSED
+"e_message = getElementPropertyValue(response, ""message"")",,Verify error message,,28-06-2024 14:26:26,28-06-2024 14:26:26,0.073s,PASSED
+println(e_message),,,,28-06-2024 14:26:26,28-06-2024 14:26:26,0.002s,PASSED
+,,,,,,,
+Test Cases/TC03-Validate Response Data Type,,Send API and validate if response returns the correct data type,,28-06-2024 14:26:26,28-06-2024 14:26:27,0.684s,PASSED
+"response = sendRequest(findTestObject(""Industry Risk Rating/Industry Prohibited Check""))",,Send API Request,,28-06-2024 14:26:26,28-06-2024 14:26:27,0.484s,PASSED
+"json = ""
+{
+""event_id"":""4ae3d994-aac9-48cb-8449-e4c4e64ea5b8"",
+  ""evaluation_status"":""Accepted""
+}
+""",,Get Response Data,,28-06-2024 14:26:27,28-06-2024 14:26:27,0.004s,PASSED
+slurper = new groovy.json.JsonSlurper(),,Verify Response Data Type,,28-06-2024 14:26:27,28-06-2024 14:26:27,0.004s,PASSED
+obj = slurper.parseText(json),,,,28-06-2024 14:26:27,28-06-2024 14:26:27,0.004s,PASSED
+"assert obj[""evaluation_status""] instanceof java.lang.String",,Verify Evaluation Status as String,,28-06-2024 14:26:27,28-06-2024 14:26:27,0.010s,PASSED
+"assert obj[""event_id""] instanceof java.lang.String",,Verify Event ID as String,,28-06-2024 14:26:27,28-06-2024 14:26:27,0.001s,PASSED

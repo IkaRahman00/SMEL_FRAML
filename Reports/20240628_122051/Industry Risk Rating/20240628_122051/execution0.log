@@ -1,0 +1,3646 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2024-06-28T04:20:55.673993700Z</date>
+  <millis>1719548455673</millis>
+  <nanos>993700</nanos>
+  <sequence>0</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startSuite</method>
+  <thread>1</thread>
+  <message>Start Test Suite : Test Suites/Industry Risk Rating</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="rerunTestFailImmediately">true</property>
+  <property name="retryCount">3</property>
+  <property name="name">Industry Risk Rating</property>
+  <property name="description"></property>
+  <property name="id">Test Suites/Industry Risk Rating</property>
+</record>
+<record>
+  <date>2024-06-28T04:20:55.688993300Z</date>
+  <millis>1719548455688</millis>
+  <nanos>993300</nanos>
+  <sequence>1</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>hostName = Zulaikha_118633 - 118633-001L-MY.adl.local</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="hostName">Zulaikha_118633 - 118633-001L-MY.adl.local</property>
+</record>
+<record>
+  <date>2024-06-28T04:20:55.689993400Z</date>
+  <millis>1719548455689</millis>
+  <nanos>993400</nanos>
+  <sequence>2</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>os = Windows 10 64bit</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="os">Windows 10 64bit</property>
+</record>
+<record>
+  <date>2024-06-28T04:20:55.689993400Z</date>
+  <millis>1719548455689</millis>
+  <nanos>993400</nanos>
+  <sequence>3</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>hostAddress = 192.168.0.104</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="hostAddress">192.168.0.104</property>
+</record>
+<record>
+  <date>2024-06-28T04:20:55.689993400Z</date>
+  <millis>1719548455689</millis>
+  <nanos>993400</nanos>
+  <sequence>4</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>katalonVersion = 9.6.0.217</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="katalonVersion">9.6.0.217</property>
+</record>
+<record>
+  <date>2024-06-28T04:20:55.862001200Z</date>
+  <millis>1719548455862</millis>
+  <nanos>1200</nanos>
+  <sequence>5</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startTest</method>
+  <thread>1</thread>
+  <message>Start Test Case : Test Cases/FBSD-211-Valid Request with All Optional Data</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="remainingRetryCount">3</property>
+  <property name="name">Test Cases/FBSD-211-Valid Request with All Optional Data</property>
+  <property name="description">Verify that the response status is 200.
+Check that the response body contains the expected risk score, vectors, and other optional data if applicable.</property>
+  <property name="iteration"></property>
+  <property name="id">Test Cases/FBSD-211-Valid Request with All Optional Data</property>
+  <property name="source">C:\Users\zulaikha_118633\git\SMEL_FRAML\Test Cases\FBSD-211-Valid Request with All Optional Data.tc</property>
+  <property name="tag"></property>
+  <property name="isOptional">false</property>
+  <property name="currentRetryCount">0</property>
+</record>
+<record>
+  <date>2024-06-28T04:20:56.203036400Z</date>
+  <millis>1719548456203</millis>
+  <nanos>36400</nanos>
+  <sequence>7</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : response = sendRequest(findTestObject(&amp;quot;Industry Risk Rating/Industry Prohibited Check&amp;quot;))</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">23</property>
+  <property name="stepIndex">1</property>
+  <property name="description">Send API request</property>
+</record>
+<record>
+  <date>2024-06-28T04:20:58.602346400Z</date>
+  <millis>1719548458602</millis>
+  <nanos>346400</nanos>
+  <sequence>10</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>HAR: C:\Users\zulaikha_118633\git\SMEL_FRAML\Reports\20240628_122051\Industry Risk Rating\20240628_122051\requests\main\0.har</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="harId">51584cb2-0d7f-4bc0-a564-c26fcbeefe17</property>
+</record>
+<record>
+  <date>2024-06-28T04:20:58.691319800Z</date>
+  <millis>1719548458691</millis>
+  <nanos>319800</nanos>
+  <sequence>11</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Send request successfully</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="testops-method-name">com.kms.katalon.core.webservice.keyword.builtin.SendRequestKeyword.sendRequest</property>
+  <property name="testops-execution-stacktrace"></property>
+</record>
+<record>
+  <date>2024-06-28T04:20:58.695322400Z</date>
+  <millis>1719548458695</millis>
+  <nanos>322400</nanos>
+  <sequence>12</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : response = sendRequest(findTestObject(&amp;quot;Industry Risk Rating/Industry Prohibited Check&amp;quot;))</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2024-06-28T04:20:58.696363Z</date>
+  <millis>1719548458696</millis>
+  <nanos>363000</nanos>
+  <sequence>13</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : verifyResponseStatusCode(response, 200)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">26</property>
+  <property name="stepIndex">2</property>
+  <property name="description">Verify Status Reponse Code= 200</property>
+</record>
+<record>
+  <date>2024-06-28T04:20:58.723316200Z</date>
+  <millis>1719548458723</millis>
+  <nanos>316200</nanos>
+  <sequence>15</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Verify response status code successfully</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="testops-is-assertion">true</property>
+  <property name="testops-method-name">com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword.verifyResponseStatusCode</property>
+  <property name="testops-execution-stacktrace"></property>
+</record>
+<record>
+  <date>2024-06-28T04:20:58.724354700Z</date>
+  <millis>1719548458724</millis>
+  <nanos>354700</nanos>
+  <sequence>16</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : verifyResponseStatusCode(response, 200)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2024-06-28T04:20:58.725351200Z</date>
+  <millis>1719548458725</millis>
+  <nanos>351200</nanos>
+  <sequence>17</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : e_id = getElementPropertyValue(response, &amp;quot;event_id&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">29</property>
+  <property name="stepIndex">3</property>
+  <property name="description">Verify JSON element (event id)</property>
+</record>
+<record>
+  <date>2024-06-28T04:20:58.831352400Z</date>
+  <millis>1719548458831</millis>
+  <nanos>352400</nanos>
+  <sequence>19</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : e_id = getElementPropertyValue(response, &amp;quot;event_id&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2024-06-28T04:20:58.832361400Z</date>
+  <millis>1719548458832</millis>
+  <nanos>361400</nanos>
+  <sequence>20</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : println(e_id)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">30</property>
+  <property name="stepIndex">4</property>
+</record>
+<record>
+  <date>2024-06-28T04:20:58.836318400Z</date>
+  <millis>1719548458836</millis>
+  <nanos>318400</nanos>
+  <sequence>21</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : println(e_id)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2024-06-28T04:20:58.837319Z</date>
+  <millis>1719548458837</millis>
+  <nanos>319000</nanos>
+  <sequence>22</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : e_stat = getElementPropertyValue(response, &amp;quot;evaluation_status&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">33</property>
+  <property name="stepIndex">5</property>
+  <property name="description">Verify JSON element evaluation status</property>
+</record>
+<record>
+  <date>2024-06-28T04:20:58.883319100Z</date>
+  <millis>1719548458883</millis>
+  <nanos>319100</nanos>
+  <sequence>24</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : e_stat = getElementPropertyValue(response, &amp;quot;evaluation_status&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2024-06-28T04:20:58.884372Z</date>
+  <millis>1719548458884</millis>
+  <nanos>372000</nanos>
+  <sequence>25</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : println(e_stat)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">34</property>
+  <property name="stepIndex">6</property>
+</record>
+<record>
+  <date>2024-06-28T04:20:58.887320400Z</date>
+  <millis>1719548458887</millis>
+  <nanos>320400</nanos>
+  <sequence>26</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : println(e_stat)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2024-06-28T04:20:58.888320500Z</date>
+  <millis>1719548458888</millis>
+  <nanos>320500</nanos>
+  <sequence>27</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : slurper = new groovy.json.JsonSlurper()</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">38</property>
+  <property name="stepIndex">7</property>
+  <property name="description">Verify Data Type</property>
+</record>
+<record>
+  <date>2024-06-28T04:20:58.891320700Z</date>
+  <millis>1719548458891</millis>
+  <nanos>320700</nanos>
+  <sequence>28</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : slurper = new groovy.json.JsonSlurper()</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2024-06-28T04:20:58.891320700Z</date>
+  <millis>1719548458891</millis>
+  <nanos>320700</nanos>
+  <sequence>29</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : obj = slurper.parseText(e_id)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">39</property>
+  <property name="stepIndex">8</property>
+</record>
+<record>
+  <date>2024-06-28T04:20:58.913318600Z</date>
+  <millis>1719548458913</millis>
+  <nanos>318600</nanos>
+  <sequence>31</sequence>
+  <level>ERROR</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Test Cases/FBSD-211-Valid Request with All Optional Data FAILED.
+Reason:
+unexpected character f
+org.apache.groovy.json.internal.Exceptions$JsonInternalException: unexpected character f
+	at org.apache.groovy.json.internal.Exceptions.die(Exceptions.java:34)
+	at org.apache.groovy.json.internal.CharScanner.parseJsonNumber(CharScanner.java:319)
+	at org.apache.groovy.json.internal.JsonParserCharArray.decodeNumber(JsonParserCharArray.java:212)
+	at org.apache.groovy.json.internal.JsonParserCharArray.decodeValueInternal(JsonParserCharArray.java:195)
+	at org.apache.groovy.json.internal.JsonParserCharArray.decodeValue(JsonParserCharArray.java:153)
+	at org.apache.groovy.json.internal.JsonParserCharArray.decodeFromChars(JsonParserCharArray.java:43)
+	at org.apache.groovy.json.internal.JsonParserCharArray.parse(JsonParserCharArray.java:380)
+	at org.apache.groovy.json.internal.BaseJsonParser.parse(BaseJsonParser.java:113)
+	at FBSD-211-Valid Request with All Optional Data.run(FBSD-211-Valid Request with All Optional Data:39)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1719548451366.run(TempTestSuite1719548451366.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+</message>
+  <exception>
+    <message>org.apache.groovy.json.internal.Exceptions$JsonInternalException: unexpected character f</message>
+    <frame>
+      <class>org.apache.groovy.json.internal.Exceptions</class>
+      <method>die</method>
+      <line>34</line>
+    </frame>
+    <frame>
+      <class>org.apache.groovy.json.internal.CharScanner</class>
+      <method>parseJsonNumber</method>
+      <line>319</line>
+    </frame>
+    <frame>
+      <class>org.apache.groovy.json.internal.JsonParserCharArray</class>
+      <method>decodeNumber</method>
+      <line>212</line>
+    </frame>
+    <frame>
+      <class>org.apache.groovy.json.internal.JsonParserCharArray</class>
+      <method>decodeValueInternal</method>
+      <line>195</line>
+    </frame>
+    <frame>
+      <class>org.apache.groovy.json.internal.JsonParserCharArray</class>
+      <method>decodeValue</method>
+      <line>153</line>
+    </frame>
+    <frame>
+      <class>org.apache.groovy.json.internal.JsonParserCharArray</class>
+      <method>decodeFromChars</method>
+      <line>43</line>
+    </frame>
+    <frame>
+      <class>org.apache.groovy.json.internal.JsonParserCharArray</class>
+      <method>parse</method>
+      <line>380</line>
+    </frame>
+    <frame>
+      <class>org.apache.groovy.json.internal.BaseJsonParser</class>
+      <method>parse</method>
+      <line>113</line>
+    </frame>
+    <frame>
+      <class>FBSD-211-Valid Request with All Optional Data</class>
+      <method>run</method>
+      <line>39</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.ScriptEngine</class>
+      <method>run</method>
+      <line>194</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.ScriptEngine</class>
+      <method>runScriptAsRawText</method>
+      <line>119</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>runScript</method>
+      <line>448</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>doExecute</method>
+      <line>439</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>processExecutionPhase</method>
+      <line>418</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>accessMainPhase</method>
+      <line>410</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>execute</method>
+      <line>285</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.common.CommonExecutor</class>
+      <method>accessTestCaseMainPhase</method>
+      <line>65</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestSuiteExecutor</class>
+      <method>accessTestSuiteMainPhase</method>
+      <line>150</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestSuiteExecutor</class>
+      <method>execute</method>
+      <line>106</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseMain</class>
+      <method>startTestSuite</method>
+      <line>180</line>
+    </frame>
+    <frame>
+      <class>TempTestSuite1719548451366</class>
+      <method>run</method>
+      <line>35</line>
+    </frame>
+    <frame>
+      <class>jdk.internal.reflect.NativeMethodAccessorImpl</class>
+      <method>invoke0</method>
+    </frame>
+    <frame>
+      <class>jdk.internal.reflect.NativeMethodAccessorImpl</class>
+      <method>invoke</method>
+      <line>77</line>
+    </frame>
+    <frame>
+      <class>jdk.internal.reflect.DelegatingMethodAccessorImpl</class>
+      <method>invoke</method>
+      <line>43</line>
+    </frame>
+  </exception>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="failed.exception.stacktrace">unexpected character f
+org.apache.groovy.json.internal.Exceptions$JsonInternalException: unexpected character f
+	at org.apache.groovy.json.internal.Exceptions.die(Exceptions.java:34)
+	at org.apache.groovy.json.internal.CharScanner.parseJsonNumber(CharScanner.java:319)
+	at org.apache.groovy.json.internal.JsonParserCharArray.decodeNumber(JsonParserCharArray.java:212)
+	at org.apache.groovy.json.internal.JsonParserCharArray.decodeValueInternal(JsonParserCharArray.java:195)
+	at org.apache.groovy.json.internal.JsonParserCharArray.decodeValue(JsonParserCharArray.java:153)
+	at org.apache.groovy.json.internal.JsonParserCharArray.decodeFromChars(JsonParserCharArray.java:43)
+	at org.apache.groovy.json.internal.JsonParserCharArray.parse(JsonParserCharArray.java:380)
+	at org.apache.groovy.json.internal.BaseJsonParser.parse(BaseJsonParser.java:113)
+	at FBSD-211-Valid Request with All Optional Data.run(FBSD-211-Valid Request with All Optional Data:39)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1719548451366.run(TempTestSuite1719548451366.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+</property>
+  <property name="failed.exception.class">org.apache.groovy.json.internal.Exceptions$JsonInternalException</property>
+  <property name="failed.exception.message">unexpected character f</property>
+</record>
+<record>
+  <date>2024-06-28T04:20:58.916372200Z</date>
+  <millis>1719548458916</millis>
+  <nanos>372200</nanos>
+  <sequence>33</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : obj = slurper.parseText(e_id)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2024-06-28T04:20:58.917360900Z</date>
+  <millis>1719548458917</millis>
+  <nanos>360900</nanos>
+  <sequence>35</sequence>
+  <level>ERROR</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Test Cases/FBSD-211-Valid Request with All Optional Data FAILED.
+Reason:
+unexpected character f
+org.apache.groovy.json.internal.Exceptions$JsonInternalException: unexpected character f
+	at org.apache.groovy.json.internal.Exceptions.die(Exceptions.java:34)
+	at org.apache.groovy.json.internal.CharScanner.parseJsonNumber(CharScanner.java:319)
+	at org.apache.groovy.json.internal.JsonParserCharArray.decodeNumber(JsonParserCharArray.java:212)
+	at org.apache.groovy.json.internal.JsonParserCharArray.decodeValueInternal(JsonParserCharArray.java:195)
+	at org.apache.groovy.json.internal.JsonParserCharArray.decodeValue(JsonParserCharArray.java:153)
+	at org.apache.groovy.json.internal.JsonParserCharArray.decodeFromChars(JsonParserCharArray.java:43)
+	at org.apache.groovy.json.internal.JsonParserCharArray.parse(JsonParserCharArray.java:380)
+	at org.apache.groovy.json.internal.BaseJsonParser.parse(BaseJsonParser.java:113)
+	at FBSD-211-Valid Request with All Optional Data.run(FBSD-211-Valid Request with All Optional Data:39)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1719548451366.run(TempTestSuite1719548451366.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+</message>
+  <exception>
+    <message>org.apache.groovy.json.internal.Exceptions$JsonInternalException: unexpected character f</message>
+    <frame>
+      <class>org.apache.groovy.json.internal.Exceptions</class>
+      <method>die</method>
+      <line>34</line>
+    </frame>
+    <frame>
+      <class>org.apache.groovy.json.internal.CharScanner</class>
+      <method>parseJsonNumber</method>
+      <line>319</line>
+    </frame>
+    <frame>
+      <class>org.apache.groovy.json.internal.JsonParserCharArray</class>
+      <method>decodeNumber</method>
+      <line>212</line>
+    </frame>
+    <frame>
+      <class>org.apache.groovy.json.internal.JsonParserCharArray</class>
+      <method>decodeValueInternal</method>
+      <line>195</line>
+    </frame>
+    <frame>
+      <class>org.apache.groovy.json.internal.JsonParserCharArray</class>
+      <method>decodeValue</method>
+      <line>153</line>
+    </frame>
+    <frame>
+      <class>org.apache.groovy.json.internal.JsonParserCharArray</class>
+      <method>decodeFromChars</method>
+      <line>43</line>
+    </frame>
+    <frame>
+      <class>org.apache.groovy.json.internal.JsonParserCharArray</class>
+      <method>parse</method>
+      <line>380</line>
+    </frame>
+    <frame>
+      <class>org.apache.groovy.json.internal.BaseJsonParser</class>
+      <method>parse</method>
+      <line>113</line>
+    </frame>
+    <frame>
+      <class>FBSD-211-Valid Request with All Optional Data</class>
+      <method>run</method>
+      <line>39</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.ScriptEngine</class>
+      <method>run</method>
+      <line>194</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.ScriptEngine</class>
+      <method>runScriptAsRawText</method>
+      <line>119</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>runScript</method>
+      <line>448</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>doExecute</method>
+      <line>439</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>processExecutionPhase</method>
+      <line>418</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>accessMainPhase</method>
+      <line>410</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>execute</method>
+      <line>285</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.common.CommonExecutor</class>
+      <method>accessTestCaseMainPhase</method>
+      <line>65</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestSuiteExecutor</class>
+      <method>accessTestSuiteMainPhase</method>
+      <line>150</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestSuiteExecutor</class>
+      <method>execute</method>
+      <line>106</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseMain</class>
+      <method>startTestSuite</method>
+      <line>180</line>
+    </frame>
+    <frame>
+      <class>TempTestSuite1719548451366</class>
+      <method>run</method>
+      <line>35</line>
+    </frame>
+    <frame>
+      <class>jdk.internal.reflect.NativeMethodAccessorImpl</class>
+      <method>invoke0</method>
+    </frame>
+    <frame>
+      <class>jdk.internal.reflect.NativeMethodAccessorImpl</class>
+      <method>invoke</method>
+      <line>77</line>
+    </frame>
+    <frame>
+      <class>jdk.internal.reflect.DelegatingMethodAccessorImpl</class>
+      <method>invoke</method>
+      <line>43</line>
+    </frame>
+  </exception>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="failed.exception.stacktrace">unexpected character f
+org.apache.groovy.json.internal.Exceptions$JsonInternalException: unexpected character f
+	at org.apache.groovy.json.internal.Exceptions.die(Exceptions.java:34)
+	at org.apache.groovy.json.internal.CharScanner.parseJsonNumber(CharScanner.java:319)
+	at org.apache.groovy.json.internal.JsonParserCharArray.decodeNumber(JsonParserCharArray.java:212)
+	at org.apache.groovy.json.internal.JsonParserCharArray.decodeValueInternal(JsonParserCharArray.java:195)
+	at org.apache.groovy.json.internal.JsonParserCharArray.decodeValue(JsonParserCharArray.java:153)
+	at org.apache.groovy.json.internal.JsonParserCharArray.decodeFromChars(JsonParserCharArray.java:43)
+	at org.apache.groovy.json.internal.JsonParserCharArray.parse(JsonParserCharArray.java:380)
+	at org.apache.groovy.json.internal.BaseJsonParser.parse(BaseJsonParser.java:113)
+	at FBSD-211-Valid Request with All Optional Data.run(FBSD-211-Valid Request with All Optional Data:39)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1719548451366.run(TempTestSuite1719548451366.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+</property>
+  <property name="failed.exception.class">org.apache.groovy.json.internal.Exceptions$JsonInternalException</property>
+  <property name="failed.exception.message">unexpected character f</property>
+</record>
+<record>
+  <date>2024-06-28T04:20:58.919373Z</date>
+  <millis>1719548458919</millis>
+  <nanos>373000</nanos>
+  <sequence>37</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endTest</method>
+  <thread>1</thread>
+  <message>End Test Case : Test Cases/FBSD-211-Valid Request with All Optional Data</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="executionBindingVariables">[]</property>
+  <property name="applitools">false</property>
+  <property name="remainingRetryCount">3</property>
+  <property name="currentRetryCount">0</property>
+  <property name="keywordsUsage">{
+  &quot;web_ui&quot;: false,
+  &quot;web_service&quot;: true,
+  &quot;cucumber&quot;: false,
+  &quot;builtin&quot;: false,
+  &quot;mobile&quot;: false,
+  &quot;windows&quot;: false,
+  &quot;testng&quot;: false
+}</property>
+</record>
+<record>
+  <date>2024-06-28T04:20:58.924413100Z</date>
+  <millis>1719548458924</millis>
+  <nanos>413100</nanos>
+  <sequence>38</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startTest</method>
+  <thread>1</thread>
+  <message>Start Test Case : Test Cases/FBSD-211-Valid Request with All Optional Data</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="remainingRetryCount">2</property>
+  <property name="name">Test Cases/FBSD-211-Valid Request with All Optional Data</property>
+  <property name="description">Verify that the response status is 200.
+Check that the response body contains the expected risk score, vectors, and other optional data if applicable.</property>
+  <property name="iteration"></property>
+  <property name="id">Test Cases/FBSD-211-Valid Request with All Optional Data</property>
+  <property name="source">C:\Users\zulaikha_118633\git\SMEL_FRAML\Test Cases\FBSD-211-Valid Request with All Optional Data.tc</property>
+  <property name="tag"></property>
+  <property name="isOptional">false</property>
+  <property name="currentRetryCount">1</property>
+</record>
+<record>
+  <date>2024-06-28T04:20:58.937347900Z</date>
+  <millis>1719548458937</millis>
+  <nanos>347900</nanos>
+  <sequence>40</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : response = sendRequest(findTestObject(&amp;quot;Industry Risk Rating/Industry Prohibited Check&amp;quot;))</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">23</property>
+  <property name="stepIndex">1</property>
+  <property name="description">Send API request</property>
+</record>
+<record>
+  <date>2024-06-28T04:20:59.425946400Z</date>
+  <millis>1719548459425</millis>
+  <nanos>946400</nanos>
+  <sequence>43</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>HAR: C:\Users\zulaikha_118633\git\SMEL_FRAML\Reports\20240628_122051\Industry Risk Rating\20240628_122051\requests\main\1.har</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="harId">52f1e29f-0959-41af-a958-cb7aebb600e4</property>
+</record>
+<record>
+  <date>2024-06-28T04:20:59.432937100Z</date>
+  <millis>1719548459432</millis>
+  <nanos>937100</nanos>
+  <sequence>44</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Send request successfully</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="testops-method-name">com.kms.katalon.core.webservice.keyword.builtin.SendRequestKeyword.sendRequest</property>
+  <property name="testops-execution-stacktrace"></property>
+</record>
+<record>
+  <date>2024-06-28T04:20:59.434960700Z</date>
+  <millis>1719548459434</millis>
+  <nanos>960700</nanos>
+  <sequence>45</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : response = sendRequest(findTestObject(&amp;quot;Industry Risk Rating/Industry Prohibited Check&amp;quot;))</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2024-06-28T04:20:59.434960700Z</date>
+  <millis>1719548459434</millis>
+  <nanos>960700</nanos>
+  <sequence>46</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : verifyResponseStatusCode(response, 200)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">26</property>
+  <property name="stepIndex">2</property>
+  <property name="description">Verify Status Reponse Code= 200</property>
+</record>
+<record>
+  <date>2024-06-28T04:20:59.437927800Z</date>
+  <millis>1719548459437</millis>
+  <nanos>927800</nanos>
+  <sequence>48</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Verify response status code successfully</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="testops-is-assertion">true</property>
+  <property name="testops-method-name">com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword.verifyResponseStatusCode</property>
+  <property name="testops-execution-stacktrace"></property>
+</record>
+<record>
+  <date>2024-06-28T04:20:59.437927800Z</date>
+  <millis>1719548459437</millis>
+  <nanos>927800</nanos>
+  <sequence>49</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : verifyResponseStatusCode(response, 200)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2024-06-28T04:20:59.438891100Z</date>
+  <millis>1719548459438</millis>
+  <nanos>891100</nanos>
+  <sequence>50</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : e_id = getElementPropertyValue(response, &amp;quot;event_id&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">29</property>
+  <property name="stepIndex">3</property>
+  <property name="description">Verify JSON element (event id)</property>
+</record>
+<record>
+  <date>2024-06-28T04:20:59.487985800Z</date>
+  <millis>1719548459487</millis>
+  <nanos>985800</nanos>
+  <sequence>52</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : e_id = getElementPropertyValue(response, &amp;quot;event_id&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2024-06-28T04:20:59.487985800Z</date>
+  <millis>1719548459487</millis>
+  <nanos>985800</nanos>
+  <sequence>53</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : println(e_id)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">30</property>
+  <property name="stepIndex">4</property>
+</record>
+<record>
+  <date>2024-06-28T04:20:59.488926700Z</date>
+  <millis>1719548459488</millis>
+  <nanos>926700</nanos>
+  <sequence>54</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : println(e_id)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2024-06-28T04:20:59.488926700Z</date>
+  <millis>1719548459488</millis>
+  <nanos>926700</nanos>
+  <sequence>55</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : e_stat = getElementPropertyValue(response, &amp;quot;evaluation_status&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">33</property>
+  <property name="stepIndex">5</property>
+  <property name="description">Verify JSON element evaluation status</property>
+</record>
+<record>
+  <date>2024-06-28T04:20:59.526928400Z</date>
+  <millis>1719548459526</millis>
+  <nanos>928400</nanos>
+  <sequence>57</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : e_stat = getElementPropertyValue(response, &amp;quot;evaluation_status&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2024-06-28T04:20:59.526928400Z</date>
+  <millis>1719548459526</millis>
+  <nanos>928400</nanos>
+  <sequence>58</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : println(e_stat)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">34</property>
+  <property name="stepIndex">6</property>
+</record>
+<record>
+  <date>2024-06-28T04:20:59.527930500Z</date>
+  <millis>1719548459527</millis>
+  <nanos>930500</nanos>
+  <sequence>59</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : println(e_stat)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2024-06-28T04:20:59.527930500Z</date>
+  <millis>1719548459527</millis>
+  <nanos>930500</nanos>
+  <sequence>60</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : slurper = new groovy.json.JsonSlurper()</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">38</property>
+  <property name="stepIndex">7</property>
+  <property name="description">Verify Data Type</property>
+</record>
+<record>
+  <date>2024-06-28T04:20:59.527930500Z</date>
+  <millis>1719548459527</millis>
+  <nanos>930500</nanos>
+  <sequence>61</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : slurper = new groovy.json.JsonSlurper()</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2024-06-28T04:20:59.527930500Z</date>
+  <millis>1719548459527</millis>
+  <nanos>930500</nanos>
+  <sequence>62</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : obj = slurper.parseText(e_id)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">39</property>
+  <property name="stepIndex">8</property>
+</record>
+<record>
+  <date>2024-06-28T04:20:59.528921400Z</date>
+  <millis>1719548459528</millis>
+  <nanos>921400</nanos>
+  <sequence>64</sequence>
+  <level>ERROR</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Test Cases/FBSD-211-Valid Request with All Optional Data FAILED.
+Reason:
+groovy.json.JsonException: Unable to determine the current character, it is not a string, number, array, or object
+
+The current character read is &amp;apos;b&amp;apos; with an int value of 98
+Unable to determine the current character, it is not a string, number, array, or object
+line number 1
+index number 0
+bafde47c-d663-4e32-9b94-70ace8001fc0
+^
+	at org.apache.groovy.json.internal.JsonParserCharArray.decodeValueInternal(JsonParserCharArray.java:202)
+	at org.apache.groovy.json.internal.JsonParserCharArray.decodeValue(JsonParserCharArray.java:153)
+	at org.apache.groovy.json.internal.JsonParserCharArray.decodeFromChars(JsonParserCharArray.java:43)
+	at org.apache.groovy.json.internal.JsonParserCharArray.parse(JsonParserCharArray.java:380)
+	at org.apache.groovy.json.internal.BaseJsonParser.parse(BaseJsonParser.java:113)
+	at FBSD-211-Valid Request with All Optional Data.run(FBSD-211-Valid Request with All Optional Data:39)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1719548451366.run(TempTestSuite1719548451366.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+</message>
+  <exception>
+    <message>groovy.json.JsonException: Unable to determine the current character, it is not a string, number, array, or object
+
+The current character read is 'b' with an int value of 98
+Unable to determine the current character, it is not a string, number, array, or object
+line number 1
+index number 0
+bafde47c-d663-4e32-9b94-70ace8001fc0
+^</message>
+    <frame>
+      <class>org.apache.groovy.json.internal.JsonParserCharArray</class>
+      <method>decodeValueInternal</method>
+      <line>202</line>
+    </frame>
+    <frame>
+      <class>org.apache.groovy.json.internal.JsonParserCharArray</class>
+      <method>decodeValue</method>
+      <line>153</line>
+    </frame>
+    <frame>
+      <class>org.apache.groovy.json.internal.JsonParserCharArray</class>
+      <method>decodeFromChars</method>
+      <line>43</line>
+    </frame>
+    <frame>
+      <class>org.apache.groovy.json.internal.JsonParserCharArray</class>
+      <method>parse</method>
+      <line>380</line>
+    </frame>
+    <frame>
+      <class>org.apache.groovy.json.internal.BaseJsonParser</class>
+      <method>parse</method>
+      <line>113</line>
+    </frame>
+    <frame>
+      <class>FBSD-211-Valid Request with All Optional Data</class>
+      <method>run</method>
+      <line>39</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.ScriptEngine</class>
+      <method>run</method>
+      <line>194</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.ScriptEngine</class>
+      <method>runScriptAsRawText</method>
+      <line>119</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>runScript</method>
+      <line>448</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>doExecute</method>
+      <line>439</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>processExecutionPhase</method>
+      <line>418</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>accessMainPhase</method>
+      <line>410</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>execute</method>
+      <line>285</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>execute</method>
+      <line>369</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.common.CommonExecutor</class>
+      <method>accessTestCaseMainPhase</method>
+      <line>65</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestSuiteExecutor</class>
+      <method>accessTestSuiteMainPhase</method>
+      <line>150</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestSuiteExecutor</class>
+      <method>execute</method>
+      <line>106</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseMain</class>
+      <method>startTestSuite</method>
+      <line>180</line>
+    </frame>
+    <frame>
+      <class>TempTestSuite1719548451366</class>
+      <method>run</method>
+      <line>35</line>
+    </frame>
+    <frame>
+      <class>jdk.internal.reflect.NativeMethodAccessorImpl</class>
+      <method>invoke0</method>
+    </frame>
+    <frame>
+      <class>jdk.internal.reflect.NativeMethodAccessorImpl</class>
+      <method>invoke</method>
+      <line>77</line>
+    </frame>
+    <frame>
+      <class>jdk.internal.reflect.DelegatingMethodAccessorImpl</class>
+      <method>invoke</method>
+      <line>43</line>
+    </frame>
+  </exception>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="failed.exception.stacktrace">groovy.json.JsonException: Unable to determine the current character, it is not a string, number, array, or object
+
+The current character read is &apos;b&apos; with an int value of 98
+Unable to determine the current character, it is not a string, number, array, or object
+line number 1
+index number 0
+bafde47c-d663-4e32-9b94-70ace8001fc0
+^
+	at org.apache.groovy.json.internal.JsonParserCharArray.decodeValueInternal(JsonParserCharArray.java:202)
+	at org.apache.groovy.json.internal.JsonParserCharArray.decodeValue(JsonParserCharArray.java:153)
+	at org.apache.groovy.json.internal.JsonParserCharArray.decodeFromChars(JsonParserCharArray.java:43)
+	at org.apache.groovy.json.internal.JsonParserCharArray.parse(JsonParserCharArray.java:380)
+	at org.apache.groovy.json.internal.BaseJsonParser.parse(BaseJsonParser.java:113)
+	at FBSD-211-Valid Request with All Optional Data.run(FBSD-211-Valid Request with All Optional Data:39)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1719548451366.run(TempTestSuite1719548451366.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+</property>
+  <property name="failed.exception.class">groovy.json.JsonException</property>
+  <property name="failed.exception.message">Unable to determine the current character, it is not a string, number, array, or object
+
+The current character read is &apos;b&apos; with an int value of 98
+Unable to determine the current character, it is not a string, number, array, or object
+line number 1
+index number 0
+bafde47c-d663-4e32-9b94-70ace8001fc0
+^</property>
+</record>
+<record>
+  <date>2024-06-28T04:20:59.529986100Z</date>
+  <millis>1719548459529</millis>
+  <nanos>986100</nanos>
+  <sequence>66</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : obj = slurper.parseText(e_id)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2024-06-28T04:20:59.529986100Z</date>
+  <millis>1719548459529</millis>
+  <nanos>986100</nanos>
+  <sequence>68</sequence>
+  <level>ERROR</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Test Cases/FBSD-211-Valid Request with All Optional Data FAILED.
+Reason:
+groovy.json.JsonException: Unable to determine the current character, it is not a string, number, array, or object
+
+The current character read is &amp;apos;b&amp;apos; with an int value of 98
+Unable to determine the current character, it is not a string, number, array, or object
+line number 1
+index number 0
+bafde47c-d663-4e32-9b94-70ace8001fc0
+^
+	at org.apache.groovy.json.internal.JsonParserCharArray.decodeValueInternal(JsonParserCharArray.java:202)
+	at org.apache.groovy.json.internal.JsonParserCharArray.decodeValue(JsonParserCharArray.java:153)
+	at org.apache.groovy.json.internal.JsonParserCharArray.decodeFromChars(JsonParserCharArray.java:43)
+	at org.apache.groovy.json.internal.JsonParserCharArray.parse(JsonParserCharArray.java:380)
+	at org.apache.groovy.json.internal.BaseJsonParser.parse(BaseJsonParser.java:113)
+	at FBSD-211-Valid Request with All Optional Data.run(FBSD-211-Valid Request with All Optional Data:39)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1719548451366.run(TempTestSuite1719548451366.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+</message>
+  <exception>
+    <message>groovy.json.JsonException: Unable to determine the current character, it is not a string, number, array, or object
+
+The current character read is 'b' with an int value of 98
+Unable to determine the current character, it is not a string, number, array, or object
+line number 1
+index number 0
+bafde47c-d663-4e32-9b94-70ace8001fc0
+^</message>
+    <frame>
+      <class>org.apache.groovy.json.internal.JsonParserCharArray</class>
+      <method>decodeValueInternal</method>
+      <line>202</line>
+    </frame>
+    <frame>
+      <class>org.apache.groovy.json.internal.JsonParserCharArray</class>
+      <method>decodeValue</method>
+      <line>153</line>
+    </frame>
+    <frame>
+      <class>org.apache.groovy.json.internal.JsonParserCharArray</class>
+      <method>decodeFromChars</method>
+      <line>43</line>
+    </frame>
+    <frame>
+      <class>org.apache.groovy.json.internal.JsonParserCharArray</class>
+      <method>parse</method>
+      <line>380</line>
+    </frame>
+    <frame>
+      <class>org.apache.groovy.json.internal.BaseJsonParser</class>
+      <method>parse</method>
+      <line>113</line>
+    </frame>
+    <frame>
+      <class>FBSD-211-Valid Request with All Optional Data</class>
+      <method>run</method>
+      <line>39</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.ScriptEngine</class>
+      <method>run</method>
+      <line>194</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.ScriptEngine</class>
+      <method>runScriptAsRawText</method>
+      <line>119</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>runScript</method>
+      <line>448</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>doExecute</method>
+      <line>439</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>processExecutionPhase</method>
+      <line>418</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>accessMainPhase</method>
+      <line>410</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>execute</method>
+      <line>285</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>execute</method>
+      <line>369</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.common.CommonExecutor</class>
+      <method>accessTestCaseMainPhase</method>
+      <line>65</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestSuiteExecutor</class>
+      <method>accessTestSuiteMainPhase</method>
+      <line>150</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestSuiteExecutor</class>
+      <method>execute</method>
+      <line>106</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseMain</class>
+      <method>startTestSuite</method>
+      <line>180</line>
+    </frame>
+    <frame>
+      <class>TempTestSuite1719548451366</class>
+      <method>run</method>
+      <line>35</line>
+    </frame>
+    <frame>
+      <class>jdk.internal.reflect.NativeMethodAccessorImpl</class>
+      <method>invoke0</method>
+    </frame>
+    <frame>
+      <class>jdk.internal.reflect.NativeMethodAccessorImpl</class>
+      <method>invoke</method>
+      <line>77</line>
+    </frame>
+    <frame>
+      <class>jdk.internal.reflect.DelegatingMethodAccessorImpl</class>
+      <method>invoke</method>
+      <line>43</line>
+    </frame>
+  </exception>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="failed.exception.stacktrace">groovy.json.JsonException: Unable to determine the current character, it is not a string, number, array, or object
+
+The current character read is &apos;b&apos; with an int value of 98
+Unable to determine the current character, it is not a string, number, array, or object
+line number 1
+index number 0
+bafde47c-d663-4e32-9b94-70ace8001fc0
+^
+	at org.apache.groovy.json.internal.JsonParserCharArray.decodeValueInternal(JsonParserCharArray.java:202)
+	at org.apache.groovy.json.internal.JsonParserCharArray.decodeValue(JsonParserCharArray.java:153)
+	at org.apache.groovy.json.internal.JsonParserCharArray.decodeFromChars(JsonParserCharArray.java:43)
+	at org.apache.groovy.json.internal.JsonParserCharArray.parse(JsonParserCharArray.java:380)
+	at org.apache.groovy.json.internal.BaseJsonParser.parse(BaseJsonParser.java:113)
+	at FBSD-211-Valid Request with All Optional Data.run(FBSD-211-Valid Request with All Optional Data:39)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1719548451366.run(TempTestSuite1719548451366.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+</property>
+  <property name="failed.exception.class">groovy.json.JsonException</property>
+  <property name="failed.exception.message">Unable to determine the current character, it is not a string, number, array, or object
+
+The current character read is &apos;b&apos; with an int value of 98
+Unable to determine the current character, it is not a string, number, array, or object
+line number 1
+index number 0
+bafde47c-d663-4e32-9b94-70ace8001fc0
+^</property>
+</record>
+<record>
+  <date>2024-06-28T04:20:59.530924Z</date>
+  <millis>1719548459530</millis>
+  <nanos>924000</nanos>
+  <sequence>70</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endTest</method>
+  <thread>1</thread>
+  <message>End Test Case : Test Cases/FBSD-211-Valid Request with All Optional Data</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="executionBindingVariables">[]</property>
+  <property name="applitools">false</property>
+  <property name="remainingRetryCount">2</property>
+  <property name="currentRetryCount">1</property>
+  <property name="keywordsUsage">{
+  &quot;web_ui&quot;: false,
+  &quot;web_service&quot;: true,
+  &quot;cucumber&quot;: false,
+  &quot;builtin&quot;: false,
+  &quot;mobile&quot;: false,
+  &quot;windows&quot;: false,
+  &quot;testng&quot;: false
+}</property>
+</record>
+<record>
+  <date>2024-06-28T04:20:59.533891800Z</date>
+  <millis>1719548459533</millis>
+  <nanos>891800</nanos>
+  <sequence>71</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startTest</method>
+  <thread>1</thread>
+  <message>Start Test Case : Test Cases/FBSD-211-Valid Request with All Optional Data</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="remainingRetryCount">1</property>
+  <property name="name">Test Cases/FBSD-211-Valid Request with All Optional Data</property>
+  <property name="description">Verify that the response status is 200.
+Check that the response body contains the expected risk score, vectors, and other optional data if applicable.</property>
+  <property name="iteration"></property>
+  <property name="id">Test Cases/FBSD-211-Valid Request with All Optional Data</property>
+  <property name="source">C:\Users\zulaikha_118633\git\SMEL_FRAML\Test Cases\FBSD-211-Valid Request with All Optional Data.tc</property>
+  <property name="tag"></property>
+  <property name="isOptional">false</property>
+  <property name="currentRetryCount">2</property>
+</record>
+<record>
+  <date>2024-06-28T04:20:59.548351700Z</date>
+  <millis>1719548459548</millis>
+  <nanos>351700</nanos>
+  <sequence>73</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : response = sendRequest(findTestObject(&amp;quot;Industry Risk Rating/Industry Prohibited Check&amp;quot;))</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">23</property>
+  <property name="stepIndex">1</property>
+  <property name="description">Send API request</property>
+</record>
+<record>
+  <date>2024-06-28T04:21:00.035493400Z</date>
+  <millis>1719548460035</millis>
+  <nanos>493400</nanos>
+  <sequence>76</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>HAR: C:\Users\zulaikha_118633\git\SMEL_FRAML\Reports\20240628_122051\Industry Risk Rating\20240628_122051\requests\main\2.har</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="harId">6e76af58-37f2-4022-8687-9c8f60b5052b</property>
+</record>
+<record>
+  <date>2024-06-28T04:21:00.037529600Z</date>
+  <millis>1719548460037</millis>
+  <nanos>529600</nanos>
+  <sequence>77</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Send request successfully</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="testops-method-name">com.kms.katalon.core.webservice.keyword.builtin.SendRequestKeyword.sendRequest</property>
+  <property name="testops-execution-stacktrace"></property>
+</record>
+<record>
+  <date>2024-06-28T04:21:00.038526400Z</date>
+  <millis>1719548460038</millis>
+  <nanos>526400</nanos>
+  <sequence>78</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : response = sendRequest(findTestObject(&amp;quot;Industry Risk Rating/Industry Prohibited Check&amp;quot;))</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2024-06-28T04:21:00.038526400Z</date>
+  <millis>1719548460038</millis>
+  <nanos>526400</nanos>
+  <sequence>79</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : verifyResponseStatusCode(response, 200)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">26</property>
+  <property name="stepIndex">2</property>
+  <property name="description">Verify Status Reponse Code= 200</property>
+</record>
+<record>
+  <date>2024-06-28T04:21:00.039524100Z</date>
+  <millis>1719548460039</millis>
+  <nanos>524100</nanos>
+  <sequence>81</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Verify response status code successfully</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="testops-is-assertion">true</property>
+  <property name="testops-method-name">com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword.verifyResponseStatusCode</property>
+  <property name="testops-execution-stacktrace"></property>
+</record>
+<record>
+  <date>2024-06-28T04:21:00.040493400Z</date>
+  <millis>1719548460040</millis>
+  <nanos>493400</nanos>
+  <sequence>82</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : verifyResponseStatusCode(response, 200)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2024-06-28T04:21:00.040493400Z</date>
+  <millis>1719548460040</millis>
+  <nanos>493400</nanos>
+  <sequence>83</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : e_id = getElementPropertyValue(response, &amp;quot;event_id&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">29</property>
+  <property name="stepIndex">3</property>
+  <property name="description">Verify JSON element (event id)</property>
+</record>
+<record>
+  <date>2024-06-28T04:21:00.101535500Z</date>
+  <millis>1719548460101</millis>
+  <nanos>535500</nanos>
+  <sequence>85</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : e_id = getElementPropertyValue(response, &amp;quot;event_id&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2024-06-28T04:21:00.101535500Z</date>
+  <millis>1719548460101</millis>
+  <nanos>535500</nanos>
+  <sequence>86</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : println(e_id)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">30</property>
+  <property name="stepIndex">4</property>
+</record>
+<record>
+  <date>2024-06-28T04:21:00.102621400Z</date>
+  <millis>1719548460102</millis>
+  <nanos>621400</nanos>
+  <sequence>87</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : println(e_id)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2024-06-28T04:21:00.102621400Z</date>
+  <millis>1719548460102</millis>
+  <nanos>621400</nanos>
+  <sequence>88</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : e_stat = getElementPropertyValue(response, &amp;quot;evaluation_status&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">33</property>
+  <property name="stepIndex">5</property>
+  <property name="description">Verify JSON element evaluation status</property>
+</record>
+<record>
+  <date>2024-06-28T04:21:00.149530700Z</date>
+  <millis>1719548460149</millis>
+  <nanos>530700</nanos>
+  <sequence>90</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : e_stat = getElementPropertyValue(response, &amp;quot;evaluation_status&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2024-06-28T04:21:00.150502200Z</date>
+  <millis>1719548460150</millis>
+  <nanos>502200</nanos>
+  <sequence>91</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : println(e_stat)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">34</property>
+  <property name="stepIndex">6</property>
+</record>
+<record>
+  <date>2024-06-28T04:21:00.151584600Z</date>
+  <millis>1719548460151</millis>
+  <nanos>584600</nanos>
+  <sequence>92</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : println(e_stat)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2024-06-28T04:21:00.151584600Z</date>
+  <millis>1719548460151</millis>
+  <nanos>584600</nanos>
+  <sequence>93</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : slurper = new groovy.json.JsonSlurper()</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">38</property>
+  <property name="stepIndex">7</property>
+  <property name="description">Verify Data Type</property>
+</record>
+<record>
+  <date>2024-06-28T04:21:00.151584600Z</date>
+  <millis>1719548460151</millis>
+  <nanos>584600</nanos>
+  <sequence>94</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : slurper = new groovy.json.JsonSlurper()</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2024-06-28T04:21:00.152531500Z</date>
+  <millis>1719548460152</millis>
+  <nanos>531500</nanos>
+  <sequence>95</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : obj = slurper.parseText(e_id)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">39</property>
+  <property name="stepIndex">8</property>
+</record>
+<record>
+  <date>2024-06-28T04:21:00.153529500Z</date>
+  <millis>1719548460153</millis>
+  <nanos>529500</nanos>
+  <sequence>97</sequence>
+  <level>ERROR</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Test Cases/FBSD-211-Valid Request with All Optional Data FAILED.
+Reason:
+groovy.json.JsonException: Unable to determine the current character, it is not a string, number, array, or object
+
+The current character read is &amp;apos;b&amp;apos; with an int value of 98
+Unable to determine the current character, it is not a string, number, array, or object
+line number 1
+index number 0
+b8ea9900-d5ae-4526-aa61-b899a9e1187f
+^
+	at org.apache.groovy.json.internal.JsonParserCharArray.decodeValueInternal(JsonParserCharArray.java:202)
+	at org.apache.groovy.json.internal.JsonParserCharArray.decodeValue(JsonParserCharArray.java:153)
+	at org.apache.groovy.json.internal.JsonParserCharArray.decodeFromChars(JsonParserCharArray.java:43)
+	at org.apache.groovy.json.internal.JsonParserCharArray.parse(JsonParserCharArray.java:380)
+	at org.apache.groovy.json.internal.BaseJsonParser.parse(BaseJsonParser.java:113)
+	at FBSD-211-Valid Request with All Optional Data.run(FBSD-211-Valid Request with All Optional Data:39)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1719548451366.run(TempTestSuite1719548451366.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+</message>
+  <exception>
+    <message>groovy.json.JsonException: Unable to determine the current character, it is not a string, number, array, or object
+
+The current character read is 'b' with an int value of 98
+Unable to determine the current character, it is not a string, number, array, or object
+line number 1
+index number 0
+b8ea9900-d5ae-4526-aa61-b899a9e1187f
+^</message>
+    <frame>
+      <class>org.apache.groovy.json.internal.JsonParserCharArray</class>
+      <method>decodeValueInternal</method>
+      <line>202</line>
+    </frame>
+    <frame>
+      <class>org.apache.groovy.json.internal.JsonParserCharArray</class>
+      <method>decodeValue</method>
+      <line>153</line>
+    </frame>
+    <frame>
+      <class>org.apache.groovy.json.internal.JsonParserCharArray</class>
+      <method>decodeFromChars</method>
+      <line>43</line>
+    </frame>
+    <frame>
+      <class>org.apache.groovy.json.internal.JsonParserCharArray</class>
+      <method>parse</method>
+      <line>380</line>
+    </frame>
+    <frame>
+      <class>org.apache.groovy.json.internal.BaseJsonParser</class>
+      <method>parse</method>
+      <line>113</line>
+    </frame>
+    <frame>
+      <class>FBSD-211-Valid Request with All Optional Data</class>
+      <method>run</method>
+      <line>39</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.ScriptEngine</class>
+      <method>run</method>
+      <line>194</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.ScriptEngine</class>
+      <method>runScriptAsRawText</method>
+      <line>119</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>runScript</method>
+      <line>448</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>doExecute</method>
+      <line>439</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>processExecutionPhase</method>
+      <line>418</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>accessMainPhase</method>
+      <line>410</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>execute</method>
+      <line>285</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>execute</method>
+      <line>369</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>execute</method>
+      <line>369</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.common.CommonExecutor</class>
+      <method>accessTestCaseMainPhase</method>
+      <line>65</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestSuiteExecutor</class>
+      <method>accessTestSuiteMainPhase</method>
+      <line>150</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestSuiteExecutor</class>
+      <method>execute</method>
+      <line>106</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseMain</class>
+      <method>startTestSuite</method>
+      <line>180</line>
+    </frame>
+    <frame>
+      <class>TempTestSuite1719548451366</class>
+      <method>run</method>
+      <line>35</line>
+    </frame>
+    <frame>
+      <class>jdk.internal.reflect.NativeMethodAccessorImpl</class>
+      <method>invoke0</method>
+    </frame>
+    <frame>
+      <class>jdk.internal.reflect.NativeMethodAccessorImpl</class>
+      <method>invoke</method>
+      <line>77</line>
+    </frame>
+    <frame>
+      <class>jdk.internal.reflect.DelegatingMethodAccessorImpl</class>
+      <method>invoke</method>
+      <line>43</line>
+    </frame>
+  </exception>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="failed.exception.stacktrace">groovy.json.JsonException: Unable to determine the current character, it is not a string, number, array, or object
+
+The current character read is &apos;b&apos; with an int value of 98
+Unable to determine the current character, it is not a string, number, array, or object
+line number 1
+index number 0
+b8ea9900-d5ae-4526-aa61-b899a9e1187f
+^
+	at org.apache.groovy.json.internal.JsonParserCharArray.decodeValueInternal(JsonParserCharArray.java:202)
+	at org.apache.groovy.json.internal.JsonParserCharArray.decodeValue(JsonParserCharArray.java:153)
+	at org.apache.groovy.json.internal.JsonParserCharArray.decodeFromChars(JsonParserCharArray.java:43)
+	at org.apache.groovy.json.internal.JsonParserCharArray.parse(JsonParserCharArray.java:380)
+	at org.apache.groovy.json.internal.BaseJsonParser.parse(BaseJsonParser.java:113)
+	at FBSD-211-Valid Request with All Optional Data.run(FBSD-211-Valid Request with All Optional Data:39)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1719548451366.run(TempTestSuite1719548451366.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+</property>
+  <property name="failed.exception.class">groovy.json.JsonException</property>
+  <property name="failed.exception.message">Unable to determine the current character, it is not a string, number, array, or object
+
+The current character read is &apos;b&apos; with an int value of 98
+Unable to determine the current character, it is not a string, number, array, or object
+line number 1
+index number 0
+b8ea9900-d5ae-4526-aa61-b899a9e1187f
+^</property>
+</record>
+<record>
+  <date>2024-06-28T04:21:00.154564600Z</date>
+  <millis>1719548460154</millis>
+  <nanos>564600</nanos>
+  <sequence>99</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : obj = slurper.parseText(e_id)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2024-06-28T04:21:00.155548400Z</date>
+  <millis>1719548460155</millis>
+  <nanos>548400</nanos>
+  <sequence>101</sequence>
+  <level>ERROR</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Test Cases/FBSD-211-Valid Request with All Optional Data FAILED.
+Reason:
+groovy.json.JsonException: Unable to determine the current character, it is not a string, number, array, or object
+
+The current character read is &amp;apos;b&amp;apos; with an int value of 98
+Unable to determine the current character, it is not a string, number, array, or object
+line number 1
+index number 0
+b8ea9900-d5ae-4526-aa61-b899a9e1187f
+^
+	at org.apache.groovy.json.internal.JsonParserCharArray.decodeValueInternal(JsonParserCharArray.java:202)
+	at org.apache.groovy.json.internal.JsonParserCharArray.decodeValue(JsonParserCharArray.java:153)
+	at org.apache.groovy.json.internal.JsonParserCharArray.decodeFromChars(JsonParserCharArray.java:43)
+	at org.apache.groovy.json.internal.JsonParserCharArray.parse(JsonParserCharArray.java:380)
+	at org.apache.groovy.json.internal.BaseJsonParser.parse(BaseJsonParser.java:113)
+	at FBSD-211-Valid Request with All Optional Data.run(FBSD-211-Valid Request with All Optional Data:39)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1719548451366.run(TempTestSuite1719548451366.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+</message>
+  <exception>
+    <message>groovy.json.JsonException: Unable to determine the current character, it is not a string, number, array, or object
+
+The current character read is 'b' with an int value of 98
+Unable to determine the current character, it is not a string, number, array, or object
+line number 1
+index number 0
+b8ea9900-d5ae-4526-aa61-b899a9e1187f
+^</message>
+    <frame>
+      <class>org.apache.groovy.json.internal.JsonParserCharArray</class>
+      <method>decodeValueInternal</method>
+      <line>202</line>
+    </frame>
+    <frame>
+      <class>org.apache.groovy.json.internal.JsonParserCharArray</class>
+      <method>decodeValue</method>
+      <line>153</line>
+    </frame>
+    <frame>
+      <class>org.apache.groovy.json.internal.JsonParserCharArray</class>
+      <method>decodeFromChars</method>
+      <line>43</line>
+    </frame>
+    <frame>
+      <class>org.apache.groovy.json.internal.JsonParserCharArray</class>
+      <method>parse</method>
+      <line>380</line>
+    </frame>
+    <frame>
+      <class>org.apache.groovy.json.internal.BaseJsonParser</class>
+      <method>parse</method>
+      <line>113</line>
+    </frame>
+    <frame>
+      <class>FBSD-211-Valid Request with All Optional Data</class>
+      <method>run</method>
+      <line>39</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.ScriptEngine</class>
+      <method>run</method>
+      <line>194</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.ScriptEngine</class>
+      <method>runScriptAsRawText</method>
+      <line>119</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>runScript</method>
+      <line>448</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>doExecute</method>
+      <line>439</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>processExecutionPhase</method>
+      <line>418</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>accessMainPhase</method>
+      <line>410</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>execute</method>
+      <line>285</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>execute</method>
+      <line>369</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>execute</method>
+      <line>369</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.common.CommonExecutor</class>
+      <method>accessTestCaseMainPhase</method>
+      <line>65</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestSuiteExecutor</class>
+      <method>accessTestSuiteMainPhase</method>
+      <line>150</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestSuiteExecutor</class>
+      <method>execute</method>
+      <line>106</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseMain</class>
+      <method>startTestSuite</method>
+      <line>180</line>
+    </frame>
+    <frame>
+      <class>TempTestSuite1719548451366</class>
+      <method>run</method>
+      <line>35</line>
+    </frame>
+    <frame>
+      <class>jdk.internal.reflect.NativeMethodAccessorImpl</class>
+      <method>invoke0</method>
+    </frame>
+    <frame>
+      <class>jdk.internal.reflect.NativeMethodAccessorImpl</class>
+      <method>invoke</method>
+      <line>77</line>
+    </frame>
+    <frame>
+      <class>jdk.internal.reflect.DelegatingMethodAccessorImpl</class>
+      <method>invoke</method>
+      <line>43</line>
+    </frame>
+  </exception>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="failed.exception.stacktrace">groovy.json.JsonException: Unable to determine the current character, it is not a string, number, array, or object
+
+The current character read is &apos;b&apos; with an int value of 98
+Unable to determine the current character, it is not a string, number, array, or object
+line number 1
+index number 0
+b8ea9900-d5ae-4526-aa61-b899a9e1187f
+^
+	at org.apache.groovy.json.internal.JsonParserCharArray.decodeValueInternal(JsonParserCharArray.java:202)
+	at org.apache.groovy.json.internal.JsonParserCharArray.decodeValue(JsonParserCharArray.java:153)
+	at org.apache.groovy.json.internal.JsonParserCharArray.decodeFromChars(JsonParserCharArray.java:43)
+	at org.apache.groovy.json.internal.JsonParserCharArray.parse(JsonParserCharArray.java:380)
+	at org.apache.groovy.json.internal.BaseJsonParser.parse(BaseJsonParser.java:113)
+	at FBSD-211-Valid Request with All Optional Data.run(FBSD-211-Valid Request with All Optional Data:39)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1719548451366.run(TempTestSuite1719548451366.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+</property>
+  <property name="failed.exception.class">groovy.json.JsonException</property>
+  <property name="failed.exception.message">Unable to determine the current character, it is not a string, number, array, or object
+
+The current character read is &apos;b&apos; with an int value of 98
+Unable to determine the current character, it is not a string, number, array, or object
+line number 1
+index number 0
+b8ea9900-d5ae-4526-aa61-b899a9e1187f
+^</property>
+</record>
+<record>
+  <date>2024-06-28T04:21:00.157494600Z</date>
+  <millis>1719548460157</millis>
+  <nanos>494600</nanos>
+  <sequence>103</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endTest</method>
+  <thread>1</thread>
+  <message>End Test Case : Test Cases/FBSD-211-Valid Request with All Optional Data</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="executionBindingVariables">[]</property>
+  <property name="applitools">false</property>
+  <property name="remainingRetryCount">1</property>
+  <property name="currentRetryCount">2</property>
+  <property name="keywordsUsage">{
+  &quot;web_ui&quot;: false,
+  &quot;web_service&quot;: true,
+  &quot;cucumber&quot;: false,
+  &quot;builtin&quot;: false,
+  &quot;mobile&quot;: false,
+  &quot;windows&quot;: false,
+  &quot;testng&quot;: false
+}</property>
+</record>
+<record>
+  <date>2024-06-28T04:21:00.161561700Z</date>
+  <millis>1719548460161</millis>
+  <nanos>561700</nanos>
+  <sequence>104</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startTest</method>
+  <thread>1</thread>
+  <message>Start Test Case : Test Cases/FBSD-211-Valid Request with All Optional Data</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="remainingRetryCount">0</property>
+  <property name="name">Test Cases/FBSD-211-Valid Request with All Optional Data</property>
+  <property name="description">Verify that the response status is 200.
+Check that the response body contains the expected risk score, vectors, and other optional data if applicable.</property>
+  <property name="iteration"></property>
+  <property name="id">Test Cases/FBSD-211-Valid Request with All Optional Data</property>
+  <property name="source">C:\Users\zulaikha_118633\git\SMEL_FRAML\Test Cases\FBSD-211-Valid Request with All Optional Data.tc</property>
+  <property name="tag"></property>
+  <property name="isOptional">false</property>
+  <property name="currentRetryCount">3</property>
+</record>
+<record>
+  <date>2024-06-28T04:21:00.183530900Z</date>
+  <millis>1719548460183</millis>
+  <nanos>530900</nanos>
+  <sequence>106</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : response = sendRequest(findTestObject(&amp;quot;Industry Risk Rating/Industry Prohibited Check&amp;quot;))</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">23</property>
+  <property name="stepIndex">1</property>
+  <property name="description">Send API request</property>
+</record>
+<record>
+  <date>2024-06-28T04:21:00.656129600Z</date>
+  <millis>1719548460656</millis>
+  <nanos>129600</nanos>
+  <sequence>109</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>HAR: C:\Users\zulaikha_118633\git\SMEL_FRAML\Reports\20240628_122051\Industry Risk Rating\20240628_122051\requests\main\3.har</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="harId">2aba0810-ec52-4264-8142-c7bf5d5d912e</property>
+</record>
+<record>
+  <date>2024-06-28T04:21:00.662109800Z</date>
+  <millis>1719548460662</millis>
+  <nanos>109800</nanos>
+  <sequence>110</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Send request successfully</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="testops-method-name">com.kms.katalon.core.webservice.keyword.builtin.SendRequestKeyword.sendRequest</property>
+  <property name="testops-execution-stacktrace"></property>
+</record>
+<record>
+  <date>2024-06-28T04:21:00.664073100Z</date>
+  <millis>1719548460664</millis>
+  <nanos>73100</nanos>
+  <sequence>111</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : response = sendRequest(findTestObject(&amp;quot;Industry Risk Rating/Industry Prohibited Check&amp;quot;))</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2024-06-28T04:21:00.664073100Z</date>
+  <millis>1719548460664</millis>
+  <nanos>73100</nanos>
+  <sequence>112</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : verifyResponseStatusCode(response, 200)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">26</property>
+  <property name="stepIndex">2</property>
+  <property name="description">Verify Status Reponse Code= 200</property>
+</record>
+<record>
+  <date>2024-06-28T04:21:00.671078100Z</date>
+  <millis>1719548460671</millis>
+  <nanos>78100</nanos>
+  <sequence>114</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Verify response status code successfully</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="testops-is-assertion">true</property>
+  <property name="testops-method-name">com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword.verifyResponseStatusCode</property>
+  <property name="testops-execution-stacktrace"></property>
+</record>
+<record>
+  <date>2024-06-28T04:21:00.674075200Z</date>
+  <millis>1719548460674</millis>
+  <nanos>75200</nanos>
+  <sequence>115</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : verifyResponseStatusCode(response, 200)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2024-06-28T04:21:00.675079800Z</date>
+  <millis>1719548460675</millis>
+  <nanos>79800</nanos>
+  <sequence>116</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : e_id = getElementPropertyValue(response, &amp;quot;event_id&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">29</property>
+  <property name="stepIndex">3</property>
+  <property name="description">Verify JSON element (event id)</property>
+</record>
+<record>
+  <date>2024-06-28T04:21:00.726164500Z</date>
+  <millis>1719548460726</millis>
+  <nanos>164500</nanos>
+  <sequence>118</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : e_id = getElementPropertyValue(response, &amp;quot;event_id&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2024-06-28T04:21:00.726164500Z</date>
+  <millis>1719548460726</millis>
+  <nanos>164500</nanos>
+  <sequence>119</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : println(e_id)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">30</property>
+  <property name="stepIndex">4</property>
+</record>
+<record>
+  <date>2024-06-28T04:21:00.727097700Z</date>
+  <millis>1719548460727</millis>
+  <nanos>97700</nanos>
+  <sequence>120</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : println(e_id)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2024-06-28T04:21:00.727097700Z</date>
+  <millis>1719548460727</millis>
+  <nanos>97700</nanos>
+  <sequence>121</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : e_stat = getElementPropertyValue(response, &amp;quot;evaluation_status&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">33</property>
+  <property name="stepIndex">5</property>
+  <property name="description">Verify JSON element evaluation status</property>
+</record>
+<record>
+  <date>2024-06-28T04:21:00.761132200Z</date>
+  <millis>1719548460761</millis>
+  <nanos>132200</nanos>
+  <sequence>123</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : e_stat = getElementPropertyValue(response, &amp;quot;evaluation_status&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2024-06-28T04:21:00.761132200Z</date>
+  <millis>1719548460761</millis>
+  <nanos>132200</nanos>
+  <sequence>124</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : println(e_stat)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">34</property>
+  <property name="stepIndex">6</property>
+</record>
+<record>
+  <date>2024-06-28T04:21:00.761132200Z</date>
+  <millis>1719548460761</millis>
+  <nanos>132200</nanos>
+  <sequence>125</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : println(e_stat)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2024-06-28T04:21:00.761132200Z</date>
+  <millis>1719548460761</millis>
+  <nanos>132200</nanos>
+  <sequence>126</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : slurper = new groovy.json.JsonSlurper()</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">38</property>
+  <property name="stepIndex">7</property>
+  <property name="description">Verify Data Type</property>
+</record>
+<record>
+  <date>2024-06-28T04:21:00.762106500Z</date>
+  <millis>1719548460762</millis>
+  <nanos>106500</nanos>
+  <sequence>127</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : slurper = new groovy.json.JsonSlurper()</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2024-06-28T04:21:00.762106500Z</date>
+  <millis>1719548460762</millis>
+  <nanos>106500</nanos>
+  <sequence>128</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : obj = slurper.parseText(e_id)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">39</property>
+  <property name="stepIndex">8</property>
+</record>
+<record>
+  <date>2024-06-28T04:21:00.762106500Z</date>
+  <millis>1719548460762</millis>
+  <nanos>106500</nanos>
+  <sequence>130</sequence>
+  <level>ERROR</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Test Cases/FBSD-211-Valid Request with All Optional Data FAILED.
+Reason:
+unexpected character f
+org.apache.groovy.json.internal.Exceptions$JsonInternalException: unexpected character f
+	at org.apache.groovy.json.internal.Exceptions.die(Exceptions.java:34)
+	at org.apache.groovy.json.internal.CharScanner.parseJsonNumber(CharScanner.java:319)
+	at org.apache.groovy.json.internal.JsonParserCharArray.decodeNumber(JsonParserCharArray.java:212)
+	at org.apache.groovy.json.internal.JsonParserCharArray.decodeValueInternal(JsonParserCharArray.java:195)
+	at org.apache.groovy.json.internal.JsonParserCharArray.decodeValue(JsonParserCharArray.java:153)
+	at org.apache.groovy.json.internal.JsonParserCharArray.decodeFromChars(JsonParserCharArray.java:43)
+	at org.apache.groovy.json.internal.JsonParserCharArray.parse(JsonParserCharArray.java:380)
+	at org.apache.groovy.json.internal.BaseJsonParser.parse(BaseJsonParser.java:113)
+	at FBSD-211-Valid Request with All Optional Data.run(FBSD-211-Valid Request with All Optional Data:39)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1719548451366.run(TempTestSuite1719548451366.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+</message>
+  <exception>
+    <message>org.apache.groovy.json.internal.Exceptions$JsonInternalException: unexpected character f</message>
+    <frame>
+      <class>org.apache.groovy.json.internal.Exceptions</class>
+      <method>die</method>
+      <line>34</line>
+    </frame>
+    <frame>
+      <class>org.apache.groovy.json.internal.CharScanner</class>
+      <method>parseJsonNumber</method>
+      <line>319</line>
+    </frame>
+    <frame>
+      <class>org.apache.groovy.json.internal.JsonParserCharArray</class>
+      <method>decodeNumber</method>
+      <line>212</line>
+    </frame>
+    <frame>
+      <class>org.apache.groovy.json.internal.JsonParserCharArray</class>
+      <method>decodeValueInternal</method>
+      <line>195</line>
+    </frame>
+    <frame>
+      <class>org.apache.groovy.json.internal.JsonParserCharArray</class>
+      <method>decodeValue</method>
+      <line>153</line>
+    </frame>
+    <frame>
+      <class>org.apache.groovy.json.internal.JsonParserCharArray</class>
+      <method>decodeFromChars</method>
+      <line>43</line>
+    </frame>
+    <frame>
+      <class>org.apache.groovy.json.internal.JsonParserCharArray</class>
+      <method>parse</method>
+      <line>380</line>
+    </frame>
+    <frame>
+      <class>org.apache.groovy.json.internal.BaseJsonParser</class>
+      <method>parse</method>
+      <line>113</line>
+    </frame>
+    <frame>
+      <class>FBSD-211-Valid Request with All Optional Data</class>
+      <method>run</method>
+      <line>39</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.ScriptEngine</class>
+      <method>run</method>
+      <line>194</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.ScriptEngine</class>
+      <method>runScriptAsRawText</method>
+      <line>119</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>runScript</method>
+      <line>448</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>doExecute</method>
+      <line>439</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>processExecutionPhase</method>
+      <line>418</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>accessMainPhase</method>
+      <line>410</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>execute</method>
+      <line>285</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>execute</method>
+      <line>369</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>execute</method>
+      <line>369</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>execute</method>
+      <line>369</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.common.CommonExecutor</class>
+      <method>accessTestCaseMainPhase</method>
+      <line>65</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestSuiteExecutor</class>
+      <method>accessTestSuiteMainPhase</method>
+      <line>150</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestSuiteExecutor</class>
+      <method>execute</method>
+      <line>106</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseMain</class>
+      <method>startTestSuite</method>
+      <line>180</line>
+    </frame>
+    <frame>
+      <class>TempTestSuite1719548451366</class>
+      <method>run</method>
+      <line>35</line>
+    </frame>
+    <frame>
+      <class>jdk.internal.reflect.NativeMethodAccessorImpl</class>
+      <method>invoke0</method>
+    </frame>
+    <frame>
+      <class>jdk.internal.reflect.NativeMethodAccessorImpl</class>
+      <method>invoke</method>
+      <line>77</line>
+    </frame>
+    <frame>
+      <class>jdk.internal.reflect.DelegatingMethodAccessorImpl</class>
+      <method>invoke</method>
+      <line>43</line>
+    </frame>
+  </exception>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="failed.exception.stacktrace">unexpected character f
+org.apache.groovy.json.internal.Exceptions$JsonInternalException: unexpected character f
+	at org.apache.groovy.json.internal.Exceptions.die(Exceptions.java:34)
+	at org.apache.groovy.json.internal.CharScanner.parseJsonNumber(CharScanner.java:319)
+	at org.apache.groovy.json.internal.JsonParserCharArray.decodeNumber(JsonParserCharArray.java:212)
+	at org.apache.groovy.json.internal.JsonParserCharArray.decodeValueInternal(JsonParserCharArray.java:195)
+	at org.apache.groovy.json.internal.JsonParserCharArray.decodeValue(JsonParserCharArray.java:153)
+	at org.apache.groovy.json.internal.JsonParserCharArray.decodeFromChars(JsonParserCharArray.java:43)
+	at org.apache.groovy.json.internal.JsonParserCharArray.parse(JsonParserCharArray.java:380)
+	at org.apache.groovy.json.internal.BaseJsonParser.parse(BaseJsonParser.java:113)
+	at FBSD-211-Valid Request with All Optional Data.run(FBSD-211-Valid Request with All Optional Data:39)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1719548451366.run(TempTestSuite1719548451366.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+</property>
+  <property name="failed.exception.class">org.apache.groovy.json.internal.Exceptions$JsonInternalException</property>
+  <property name="failed.exception.message">unexpected character f</property>
+</record>
+<record>
+  <date>2024-06-28T04:21:00.763106100Z</date>
+  <millis>1719548460763</millis>
+  <nanos>106100</nanos>
+  <sequence>132</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : obj = slurper.parseText(e_id)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2024-06-28T04:21:00.763106100Z</date>
+  <millis>1719548460763</millis>
+  <nanos>106100</nanos>
+  <sequence>134</sequence>
+  <level>ERROR</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Test Cases/FBSD-211-Valid Request with All Optional Data FAILED.
+Reason:
+unexpected character f
+org.apache.groovy.json.internal.Exceptions$JsonInternalException: unexpected character f
+	at org.apache.groovy.json.internal.Exceptions.die(Exceptions.java:34)
+	at org.apache.groovy.json.internal.CharScanner.parseJsonNumber(CharScanner.java:319)
+	at org.apache.groovy.json.internal.JsonParserCharArray.decodeNumber(JsonParserCharArray.java:212)
+	at org.apache.groovy.json.internal.JsonParserCharArray.decodeValueInternal(JsonParserCharArray.java:195)
+	at org.apache.groovy.json.internal.JsonParserCharArray.decodeValue(JsonParserCharArray.java:153)
+	at org.apache.groovy.json.internal.JsonParserCharArray.decodeFromChars(JsonParserCharArray.java:43)
+	at org.apache.groovy.json.internal.JsonParserCharArray.parse(JsonParserCharArray.java:380)
+	at org.apache.groovy.json.internal.BaseJsonParser.parse(BaseJsonParser.java:113)
+	at FBSD-211-Valid Request with All Optional Data.run(FBSD-211-Valid Request with All Optional Data:39)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1719548451366.run(TempTestSuite1719548451366.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+</message>
+  <exception>
+    <message>org.apache.groovy.json.internal.Exceptions$JsonInternalException: unexpected character f</message>
+    <frame>
+      <class>org.apache.groovy.json.internal.Exceptions</class>
+      <method>die</method>
+      <line>34</line>
+    </frame>
+    <frame>
+      <class>org.apache.groovy.json.internal.CharScanner</class>
+      <method>parseJsonNumber</method>
+      <line>319</line>
+    </frame>
+    <frame>
+      <class>org.apache.groovy.json.internal.JsonParserCharArray</class>
+      <method>decodeNumber</method>
+      <line>212</line>
+    </frame>
+    <frame>
+      <class>org.apache.groovy.json.internal.JsonParserCharArray</class>
+      <method>decodeValueInternal</method>
+      <line>195</line>
+    </frame>
+    <frame>
+      <class>org.apache.groovy.json.internal.JsonParserCharArray</class>
+      <method>decodeValue</method>
+      <line>153</line>
+    </frame>
+    <frame>
+      <class>org.apache.groovy.json.internal.JsonParserCharArray</class>
+      <method>decodeFromChars</method>
+      <line>43</line>
+    </frame>
+    <frame>
+      <class>org.apache.groovy.json.internal.JsonParserCharArray</class>
+      <method>parse</method>
+      <line>380</line>
+    </frame>
+    <frame>
+      <class>org.apache.groovy.json.internal.BaseJsonParser</class>
+      <method>parse</method>
+      <line>113</line>
+    </frame>
+    <frame>
+      <class>FBSD-211-Valid Request with All Optional Data</class>
+      <method>run</method>
+      <line>39</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.ScriptEngine</class>
+      <method>run</method>
+      <line>194</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.ScriptEngine</class>
+      <method>runScriptAsRawText</method>
+      <line>119</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>runScript</method>
+      <line>448</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>doExecute</method>
+      <line>439</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>processExecutionPhase</method>
+      <line>418</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>accessMainPhase</method>
+      <line>410</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>execute</method>
+      <line>285</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>execute</method>
+      <line>369</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>execute</method>
+      <line>369</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>execute</method>
+      <line>369</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.common.CommonExecutor</class>
+      <method>accessTestCaseMainPhase</method>
+      <line>65</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestSuiteExecutor</class>
+      <method>accessTestSuiteMainPhase</method>
+      <line>150</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestSuiteExecutor</class>
+      <method>execute</method>
+      <line>106</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseMain</class>
+      <method>startTestSuite</method>
+      <line>180</line>
+    </frame>
+    <frame>
+      <class>TempTestSuite1719548451366</class>
+      <method>run</method>
+      <line>35</line>
+    </frame>
+    <frame>
+      <class>jdk.internal.reflect.NativeMethodAccessorImpl</class>
+      <method>invoke0</method>
+    </frame>
+    <frame>
+      <class>jdk.internal.reflect.NativeMethodAccessorImpl</class>
+      <method>invoke</method>
+      <line>77</line>
+    </frame>
+    <frame>
+      <class>jdk.internal.reflect.DelegatingMethodAccessorImpl</class>
+      <method>invoke</method>
+      <line>43</line>
+    </frame>
+  </exception>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="failed.exception.stacktrace">unexpected character f
+org.apache.groovy.json.internal.Exceptions$JsonInternalException: unexpected character f
+	at org.apache.groovy.json.internal.Exceptions.die(Exceptions.java:34)
+	at org.apache.groovy.json.internal.CharScanner.parseJsonNumber(CharScanner.java:319)
+	at org.apache.groovy.json.internal.JsonParserCharArray.decodeNumber(JsonParserCharArray.java:212)
+	at org.apache.groovy.json.internal.JsonParserCharArray.decodeValueInternal(JsonParserCharArray.java:195)
+	at org.apache.groovy.json.internal.JsonParserCharArray.decodeValue(JsonParserCharArray.java:153)
+	at org.apache.groovy.json.internal.JsonParserCharArray.decodeFromChars(JsonParserCharArray.java:43)
+	at org.apache.groovy.json.internal.JsonParserCharArray.parse(JsonParserCharArray.java:380)
+	at org.apache.groovy.json.internal.BaseJsonParser.parse(BaseJsonParser.java:113)
+	at FBSD-211-Valid Request with All Optional Data.run(FBSD-211-Valid Request with All Optional Data:39)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1719548451366.run(TempTestSuite1719548451366.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+</property>
+  <property name="failed.exception.class">org.apache.groovy.json.internal.Exceptions$JsonInternalException</property>
+  <property name="failed.exception.message">unexpected character f</property>
+</record>
+<record>
+  <date>2024-06-28T04:21:00.764094100Z</date>
+  <millis>1719548460764</millis>
+  <nanos>94100</nanos>
+  <sequence>136</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endTest</method>
+  <thread>1</thread>
+  <message>End Test Case : Test Cases/FBSD-211-Valid Request with All Optional Data</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="executionBindingVariables">[]</property>
+  <property name="applitools">false</property>
+  <property name="remainingRetryCount">0</property>
+  <property name="currentRetryCount">3</property>
+  <property name="keywordsUsage">{
+  &quot;web_ui&quot;: false,
+  &quot;web_service&quot;: true,
+  &quot;cucumber&quot;: false,
+  &quot;builtin&quot;: false,
+  &quot;mobile&quot;: false,
+  &quot;windows&quot;: false,
+  &quot;testng&quot;: false
+}</property>
+</record>
+<record>
+  <date>2024-06-28T04:21:00.773116Z</date>
+  <millis>1719548460773</millis>
+  <nanos>116000</nanos>
+  <sequence>137</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startTest</method>
+  <thread>1</thread>
+  <message>Start Test Case : Test Cases/FBSD-211-Validate Mandatory Field</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="remainingRetryCount">3</property>
+  <property name="name">Test Cases/FBSD-211-Validate Mandatory Field</property>
+  <property name="description">Verify status code 400 -Bad Request when user leave mandatory field blank</property>
+  <property name="iteration"></property>
+  <property name="id">Test Cases/FBSD-211-Validate Mandatory Field</property>
+  <property name="source">C:\Users\zulaikha_118633\git\SMEL_FRAML\Test Cases\FBSD-211-Validate Mandatory Field.tc</property>
+  <property name="tag"></property>
+  <property name="isOptional">false</property>
+  <property name="currentRetryCount">0</property>
+</record>
+<record>
+  <date>2024-06-28T04:21:00.900063300Z</date>
+  <millis>1719548460900</millis>
+  <nanos>63300</nanos>
+  <sequence>139</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : response = sendRequest(findTestObject(&amp;quot;Industry Risk Rating/Industry Mandatory Field&amp;quot;))</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">22</property>
+  <property name="stepIndex">1</property>
+  <property name="description">Send API request</property>
+</record>
+<record>
+  <date>2024-06-28T04:21:00.953121Z</date>
+  <millis>1719548460953</millis>
+  <nanos>121000</nanos>
+  <sequence>142</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>HAR: C:\Users\zulaikha_118633\git\SMEL_FRAML\Reports\20240628_122051\Industry Risk Rating\20240628_122051\requests\main\4.har</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="harId">95f1ddb4-e488-4c3b-ad69-0be0ee90a7b7</property>
+</record>
+<record>
+  <date>2024-06-28T04:21:00.955067400Z</date>
+  <millis>1719548460955</millis>
+  <nanos>67400</nanos>
+  <sequence>143</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Send request successfully</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="testops-method-name">com.kms.katalon.core.webservice.keyword.builtin.SendRequestKeyword.sendRequest</property>
+  <property name="testops-execution-stacktrace"></property>
+</record>
+<record>
+  <date>2024-06-28T04:21:00.957103300Z</date>
+  <millis>1719548460957</millis>
+  <nanos>103300</nanos>
+  <sequence>144</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : response = sendRequest(findTestObject(&amp;quot;Industry Risk Rating/Industry Mandatory Field&amp;quot;))</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2024-06-28T04:21:00.957103300Z</date>
+  <millis>1719548460957</millis>
+  <nanos>103300</nanos>
+  <sequence>145</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : verifyResponseStatusCode(response, 400)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">25</property>
+  <property name="stepIndex">2</property>
+  <property name="description">Verify Status Reponse Code= 400</property>
+</record>
+<record>
+  <date>2024-06-28T04:21:00.959135400Z</date>
+  <millis>1719548460959</millis>
+  <nanos>135400</nanos>
+  <sequence>147</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Verify response status code successfully</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="testops-is-assertion">true</property>
+  <property name="testops-method-name">com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword.verifyResponseStatusCode</property>
+  <property name="testops-execution-stacktrace"></property>
+</record>
+<record>
+  <date>2024-06-28T04:21:00.960147800Z</date>
+  <millis>1719548460960</millis>
+  <nanos>147800</nanos>
+  <sequence>148</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : verifyResponseStatusCode(response, 400)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2024-06-28T04:21:00.960147800Z</date>
+  <millis>1719548460960</millis>
+  <nanos>147800</nanos>
+  <sequence>149</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : code = getElementPropertyValue(response, &amp;quot;code&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">26</property>
+  <property name="stepIndex">3</property>
+</record>
+<record>
+  <date>2024-06-28T04:21:01.003197300Z</date>
+  <millis>1719548461003</millis>
+  <nanos>197300</nanos>
+  <sequence>151</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : code = getElementPropertyValue(response, &amp;quot;code&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2024-06-28T04:21:01.003197300Z</date>
+  <millis>1719548461003</millis>
+  <nanos>197300</nanos>
+  <sequence>152</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : println(code)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">27</property>
+  <property name="stepIndex">4</property>
+</record>
+<record>
+  <date>2024-06-28T04:21:01.006148Z</date>
+  <millis>1719548461006</millis>
+  <nanos>148000</nanos>
+  <sequence>153</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : println(code)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2024-06-28T04:21:01.006148Z</date>
+  <millis>1719548461006</millis>
+  <nanos>148000</nanos>
+  <sequence>154</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : e_message = getElementPropertyValue(response, &amp;quot;message&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">30</property>
+  <property name="stepIndex">5</property>
+  <property name="description">Verify error message</property>
+</record>
+<record>
+  <date>2024-06-28T04:21:01.045146900Z</date>
+  <millis>1719548461045</millis>
+  <nanos>146900</nanos>
+  <sequence>156</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : e_message = getElementPropertyValue(response, &amp;quot;message&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2024-06-28T04:21:01.045146900Z</date>
+  <millis>1719548461045</millis>
+  <nanos>146900</nanos>
+  <sequence>157</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : println(e_message)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">31</property>
+  <property name="stepIndex">6</property>
+</record>
+<record>
+  <date>2024-06-28T04:21:01.046150200Z</date>
+  <millis>1719548461046</millis>
+  <nanos>150200</nanos>
+  <sequence>158</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : println(e_message)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2024-06-28T04:21:01.047191300Z</date>
+  <millis>1719548461047</millis>
+  <nanos>191300</nanos>
+  <sequence>159</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Test Cases/FBSD-211-Validate Mandatory Field</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2024-06-28T04:21:01.048147900Z</date>
+  <millis>1719548461048</millis>
+  <nanos>147900</nanos>
+  <sequence>160</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endTest</method>
+  <thread>1</thread>
+  <message>End Test Case : Test Cases/FBSD-211-Validate Mandatory Field</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="executionBindingVariables">[]</property>
+  <property name="applitools">false</property>
+  <property name="remainingRetryCount">3</property>
+  <property name="currentRetryCount">0</property>
+  <property name="keywordsUsage">{
+  &quot;web_ui&quot;: false,
+  &quot;web_service&quot;: true,
+  &quot;cucumber&quot;: false,
+  &quot;builtin&quot;: false,
+  &quot;mobile&quot;: false,
+  &quot;windows&quot;: false,
+  &quot;testng&quot;: false
+}</property>
+</record>
+<record>
+  <date>2024-06-28T04:21:01.050168400Z</date>
+  <millis>1719548461050</millis>
+  <nanos>168400</nanos>
+  <sequence>161</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startTest</method>
+  <thread>1</thread>
+  <message>Start Test Case : Test Cases/Validate Data Type</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="remainingRetryCount">3</property>
+  <property name="name">Test Cases/Validate Data Type</property>
+  <property name="description"></property>
+  <property name="iteration"></property>
+  <property name="id">Test Cases/Validate Data Type</property>
+  <property name="source">C:\Users\zulaikha_118633\git\SMEL_FRAML\Test Cases\Validate Data Type.tc</property>
+  <property name="tag"></property>
+  <property name="isOptional">false</property>
+  <property name="currentRetryCount">0</property>
+</record>
+<record>
+  <date>2024-06-28T04:21:01.209149500Z</date>
+  <millis>1719548461209</millis>
+  <nanos>149500</nanos>
+  <sequence>163</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : response = sendRequest(findTestObject(&amp;quot;Industry Risk Rating/Industry Prohibited Check&amp;quot;))</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">23</property>
+  <property name="stepIndex">1</property>
+</record>
+<record>
+  <date>2024-06-28T04:21:01.676837500Z</date>
+  <millis>1719548461676</millis>
+  <nanos>837500</nanos>
+  <sequence>166</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>HAR: C:\Users\zulaikha_118633\git\SMEL_FRAML\Reports\20240628_122051\Industry Risk Rating\20240628_122051\requests\main\5.har</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="harId">adc106cc-e225-48e8-826c-a928cea22b07</property>
+</record>
+<record>
+  <date>2024-06-28T04:21:01.680837500Z</date>
+  <millis>1719548461680</millis>
+  <nanos>837500</nanos>
+  <sequence>167</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Send request successfully</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="testops-method-name">com.kms.katalon.core.webservice.keyword.builtin.SendRequestKeyword.sendRequest</property>
+  <property name="testops-execution-stacktrace"></property>
+</record>
+<record>
+  <date>2024-06-28T04:21:01.683838200Z</date>
+  <millis>1719548461683</millis>
+  <nanos>838200</nanos>
+  <sequence>168</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : response = sendRequest(findTestObject(&amp;quot;Industry Risk Rating/Industry Prohibited Check&amp;quot;))</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2024-06-28T04:21:01.684836600Z</date>
+  <millis>1719548461684</millis>
+  <nanos>836600</nanos>
+  <sequence>169</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : json = &amp;quot;
+{
+&amp;quot;event_id&amp;quot;:&amp;quot;4ae3d994-aac9-48cb-8449-e4c4e64ea5b8&amp;quot;,
+  &amp;quot;evaluation_status&amp;quot;:&amp;quot;Accepted&amp;quot;
+}
+&amp;quot;</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">25</property>
+  <property name="stepIndex">2</property>
+</record>
+<record>
+  <date>2024-06-28T04:21:01.686835600Z</date>
+  <millis>1719548461686</millis>
+  <nanos>835600</nanos>
+  <sequence>170</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : json = &amp;quot;
+{
+&amp;quot;event_id&amp;quot;:&amp;quot;4ae3d994-aac9-48cb-8449-e4c4e64ea5b8&amp;quot;,
+  &amp;quot;evaluation_status&amp;quot;:&amp;quot;Accepted&amp;quot;
+}
+&amp;quot;</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2024-06-28T04:21:01.687834300Z</date>
+  <millis>1719548461687</millis>
+  <nanos>834300</nanos>
+  <sequence>171</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : slurper = new groovy.json.JsonSlurper()</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">31</property>
+  <property name="stepIndex">3</property>
+</record>
+<record>
+  <date>2024-06-28T04:21:01.689838100Z</date>
+  <millis>1719548461689</millis>
+  <nanos>838100</nanos>
+  <sequence>172</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : slurper = new groovy.json.JsonSlurper()</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2024-06-28T04:21:01.690832900Z</date>
+  <millis>1719548461690</millis>
+  <nanos>832900</nanos>
+  <sequence>173</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : obj = slurper.parseText(json)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">32</property>
+  <property name="stepIndex">4</property>
+</record>
+<record>
+  <date>2024-06-28T04:21:01.691834400Z</date>
+  <millis>1719548461691</millis>
+  <nanos>834400</nanos>
+  <sequence>174</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : obj = slurper.parseText(json)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2024-06-28T04:21:01.692832400Z</date>
+  <millis>1719548461692</millis>
+  <nanos>832400</nanos>
+  <sequence>175</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : assert obj[&amp;quot;evaluation_status&amp;quot;] instanceof java.lang.String</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">36</property>
+  <property name="stepIndex">5</property>
+</record>
+<record>
+  <date>2024-06-28T04:21:01.695832200Z</date>
+  <millis>1719548461695</millis>
+  <nanos>832200</nanos>
+  <sequence>176</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : assert obj[&amp;quot;evaluation_status&amp;quot;] instanceof java.lang.String</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2024-06-28T04:21:01.695832200Z</date>
+  <millis>1719548461695</millis>
+  <nanos>832200</nanos>
+  <sequence>177</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : assert obj[&amp;quot;event_id&amp;quot;] instanceof java.lang.String</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">38</property>
+  <property name="stepIndex">6</property>
+</record>
+<record>
+  <date>2024-06-28T04:21:01.696833Z</date>
+  <millis>1719548461696</millis>
+  <nanos>833000</nanos>
+  <sequence>178</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : assert obj[&amp;quot;event_id&amp;quot;] instanceof java.lang.String</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2024-06-28T04:21:01.696833Z</date>
+  <millis>1719548461696</millis>
+  <nanos>833000</nanos>
+  <sequence>179</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Test Cases/Validate Data Type</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2024-06-28T04:21:01.697834200Z</date>
+  <millis>1719548461697</millis>
+  <nanos>834200</nanos>
+  <sequence>180</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endTest</method>
+  <thread>1</thread>
+  <message>End Test Case : Test Cases/Validate Data Type</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="executionBindingVariables">[]</property>
+  <property name="applitools">false</property>
+  <property name="remainingRetryCount">3</property>
+  <property name="currentRetryCount">0</property>
+  <property name="keywordsUsage">{
+  &quot;web_ui&quot;: false,
+  &quot;web_service&quot;: true,
+  &quot;cucumber&quot;: false,
+  &quot;builtin&quot;: false,
+  &quot;mobile&quot;: false,
+  &quot;windows&quot;: false,
+  &quot;testng&quot;: false
+}</property>
+</record>
+<record>
+  <date>2024-06-28T04:21:01.698834800Z</date>
+  <millis>1719548461698</millis>
+  <nanos>834800</nanos>
+  <sequence>181</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start listener action : exportKatalonReports</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2024-06-28T04:21:01.955135600Z</date>
+  <millis>1719548461955</millis>
+  <nanos>135600</nanos>
+  <sequence>449</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Start generating HTML report folder at: C:\Users\zulaikha_118633\git\SMEL_FRAML\Reports\20240628_122051\Industry Risk Rating\20240628_122051...</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2024-06-28T04:21:02.235005600Z</date>
+  <millis>1719548462235</millis>
+  <nanos>5600</nanos>
+  <sequence>450</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>HTML report generated</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2024-06-28T04:21:02.236004600Z</date>
+  <millis>1719548462236</millis>
+  <nanos>4600</nanos>
+  <sequence>451</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Start generating CSV report folder at: C:\Users\zulaikha_118633\git\SMEL_FRAML\Reports\20240628_122051\Industry Risk Rating\20240628_122051...</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2024-06-28T04:21:02.278004700Z</date>
+  <millis>1719548462278</millis>
+  <nanos>4700</nanos>
+  <sequence>452</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>CSV report generated</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2024-06-28T04:21:02.289011100Z</date>
+  <millis>1719548462289</millis>
+  <nanos>11100</nanos>
+  <sequence>454</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End listener action : exportKatalonReports</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2024-06-28T04:21:02.342004900Z</date>
+  <millis>1719548462342</millis>
+  <nanos>4900</nanos>
+  <sequence>455</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endSuite</method>
+  <thread>1</thread>
+  <message>End Test Suite : Test Suites/Industry Risk Rating</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+</log>

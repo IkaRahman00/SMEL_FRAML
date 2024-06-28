@@ -1,0 +1,32 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Industry Risk Rating,,,,28-06-2024 12:21:58,28-06-2024 12:22:02,4.304s,PASSED
+,,,,,,,
+Test Cases/FBSD-211-Valid Request with All Optional Data,,"Verify that the response status is 200.
+Check that the response body contains the expected risk score, vectors, and other optional data if applicable.",,28-06-2024 12:21:58,28-06-2024 12:22:01,3.220s,PASSED
+"response = sendRequest(findTestObject(""Industry Risk Rating/Industry Prohibited Check""))",,Send API request,,28-06-2024 12:21:58,28-06-2024 12:22:01,2.702s,PASSED
+"verifyResponseStatusCode(response, 200)",,Verify Status Reponse Code= 200,,28-06-2024 12:22:01,28-06-2024 12:22:01,0.026s,PASSED
+"e_id = getElementPropertyValue(response, ""event_id"")",,Verify JSON element (event id),,28-06-2024 12:22:01,28-06-2024 12:22:01,0.101s,PASSED
+println(e_id),,,,28-06-2024 12:22:01,28-06-2024 12:22:01,0.007s,PASSED
+"e_stat = getElementPropertyValue(response, ""evaluation_status"")",,Verify JSON element evaluation status,,28-06-2024 12:22:01,28-06-2024 12:22:01,0.046s,PASSED
+println(e_stat),,,,28-06-2024 12:22:01,28-06-2024 12:22:01,0.001s,PASSED
+,,,,,,,
+Test Cases/FBSD-211-Validate Mandatory Field,,Verify status code 400 -Bad Request when user leave mandatory field blank,,28-06-2024 12:22:01,28-06-2024 12:22:01,0.279s,PASSED
+"response = sendRequest(findTestObject(""Industry Risk Rating/Industry Mandatory Field""))",,Send API request,,28-06-2024 12:22:01,28-06-2024 12:22:01,0.054s,PASSED
+"verifyResponseStatusCode(response, 400)",,Verify Status Reponse Code= 400,,28-06-2024 12:22:01,28-06-2024 12:22:01,0.004s,PASSED
+"code = getElementPropertyValue(response, ""code"")",,,,28-06-2024 12:22:01,28-06-2024 12:22:01,0.045s,PASSED
+println(code),,,,28-06-2024 12:22:01,28-06-2024 12:22:01,0.002s,PASSED
+"e_message = getElementPropertyValue(response, ""message"")",,Verify error message,,28-06-2024 12:22:01,28-06-2024 12:22:01,0.041s,PASSED
+println(e_message),,,,28-06-2024 12:22:01,28-06-2024 12:22:01,0.000s,PASSED
+,,,,,,,
+Test Cases/Validate Data Type,,,,28-06-2024 12:22:01,28-06-2024 12:22:02,0.596s,PASSED
+"response = sendRequest(findTestObject(""Industry Risk Rating/Industry Prohibited Check""))",,,,28-06-2024 12:22:01,28-06-2024 12:22:02,0.430s,PASSED
+"json = ""
+{
+""event_id"":""4ae3d994-aac9-48cb-8449-e4c4e64ea5b8"",
+  ""evaluation_status"":""Accepted""
+}
+""",,,,28-06-2024 12:22:02,28-06-2024 12:22:02,0.002s,PASSED
+slurper = new groovy.json.JsonSlurper(),,,,28-06-2024 12:22:02,28-06-2024 12:22:02,0.002s,PASSED
+obj = slurper.parseText(json),,,,28-06-2024 12:22:02,28-06-2024 12:22:02,0.002s,PASSED
+"assert obj[""evaluation_status""] instanceof java.lang.String",,,,28-06-2024 12:22:02,28-06-2024 12:22:02,0.006s,PASSED
+"assert obj[""event_id""] instanceof java.lang.String",,,,28-06-2024 12:22:02,28-06-2024 12:22:02,0.001s,PASSED

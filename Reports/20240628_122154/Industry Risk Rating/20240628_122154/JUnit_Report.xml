@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Industry Risk Rating" time="4.304" tests="3" failures="0" errors="0">
+   <testsuite name="Industry Risk Rating" tests="3" failures="0" errors="0" time="4.304" skipped="0" timestamp="28-06-2024T12:21:58" hostname="Zulaikha_118633 - 118633-001L-MY.adl.local" id="Test Suites/Industry Risk Rating">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform"/>
+         <property name="logFolder" value="C:\\Users\\zulaikha_118633\\git\\SMEL_FRAML\\Reports\\20240628_122154\\Industry Risk Rating\\20240628_122154"/>
+         <property name="logFiles" value="C:\\Users\\zulaikha_118633\\git\\SMEL_FRAML\\Reports\\20240628_122154\\Industry Risk Rating\\20240628_122154\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Zulaikha_118633 - 118633-001L-MY.adl.local"/>
+         <property name="hostAddress" value="192.168.0.104"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="9.6.0.217"/>
+      </properties>
+      <testcase name="Test Cases/FBSD-211-Valid Request with All Optional Data" time="3.22" classname="Test Cases/FBSD-211-Valid Request with All Optional Data" status="PASSED">
+         <system-out><![CDATA[28-06-2024T12:21:58 - [TEST_CASE][PASSED] - Test Cases/FBSD-211-Valid Request with All Optional Data: Test Cases/FBSD-211-Valid Request with All Optional Data
+
+28-06-2024T12:21:58 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("Industry Risk Rating/Industry Prohibited Check")): Send request successfully
+
+28-06-2024T12:22:01 - [MESSAGE][INFO] - HAR: C:\Users\zulaikha_118633\git\SMEL_FRAML\Reports\20240628_122154\Industry Risk Rating\20240628_122154\requests\main\0.har
+
+28-06-2024T12:22:01 - [MESSAGE][PASSED] - Send request successfully
+
+28-06-2024T12:22:01 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, 200): Verify response status code successfully
+
+28-06-2024T12:22:01 - [MESSAGE][PASSED] - Verify response status code successfully
+
+28-06-2024T12:22:01 - [TEST_STEP][PASSED] - e_id = getElementPropertyValue(response, "event_id"): null
+
+28-06-2024T12:22:01 - [TEST_STEP][PASSED] - println(e_id): null
+
+28-06-2024T12:22:01 - [TEST_STEP][PASSED] - e_stat = getElementPropertyValue(response, "evaluation_status"): null
+
+28-06-2024T12:22:01 - [TEST_STEP][PASSED] - println(e_stat): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/FBSD-211-Validate Mandatory Field" time="0.279" classname="Test Cases/FBSD-211-Validate Mandatory Field" status="PASSED">
+         <system-out><![CDATA[28-06-2024T12:22:01 - [TEST_CASE][PASSED] - Test Cases/FBSD-211-Validate Mandatory Field: Test Cases/FBSD-211-Validate Mandatory Field
+
+28-06-2024T12:22:01 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("Industry Risk Rating/Industry Mandatory Field")): Send request successfully
+
+28-06-2024T12:22:01 - [MESSAGE][INFO] - HAR: C:\Users\zulaikha_118633\git\SMEL_FRAML\Reports\20240628_122154\Industry Risk Rating\20240628_122154\requests\main\1.har
+
+28-06-2024T12:22:01 - [MESSAGE][PASSED] - Send request successfully
+
+28-06-2024T12:22:01 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, 400): Verify response status code successfully
+
+28-06-2024T12:22:01 - [MESSAGE][PASSED] - Verify response status code successfully
+
+28-06-2024T12:22:01 - [TEST_STEP][PASSED] - code = getElementPropertyValue(response, "code"): null
+
+28-06-2024T12:22:01 - [TEST_STEP][PASSED] - println(code): null
+
+28-06-2024T12:22:01 - [TEST_STEP][PASSED] - e_message = getElementPropertyValue(response, "message"): null
+
+28-06-2024T12:22:01 - [TEST_STEP][PASSED] - println(e_message): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Validate Data Type" time="0.596" classname="Test Cases/Validate Data Type" status="PASSED">
+         <system-out><![CDATA[28-06-2024T12:22:01 - [TEST_CASE][PASSED] - Test Cases/Validate Data Type: Test Cases/Validate Data Type
+
+28-06-2024T12:22:01 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("Industry Risk Rating/Industry Prohibited Check")): Send request successfully
+
+28-06-2024T12:22:02 - [MESSAGE][INFO] - HAR: C:\Users\zulaikha_118633\git\SMEL_FRAML\Reports\20240628_122154\Industry Risk Rating\20240628_122154\requests\main\2.har
+
+28-06-2024T12:22:02 - [MESSAGE][PASSED] - Send request successfully
+
+28-06-2024T12:22:02 - [TEST_STEP][PASSED] - json = "
+{
+"event_id":"4ae3d994-aac9-48cb-8449-e4c4e64ea5b8",
+  "evaluation_status":"Accepted"
+}
+": null
+
+28-06-2024T12:22:02 - [TEST_STEP][PASSED] - slurper = new groovy.json.JsonSlurper(): null
+
+28-06-2024T12:22:02 - [TEST_STEP][PASSED] - obj = slurper.parseText(json): null
+
+28-06-2024T12:22:02 - [TEST_STEP][PASSED] - assert obj["evaluation_status"] instanceof java.lang.String: null
+
+28-06-2024T12:22:02 - [TEST_STEP][PASSED] - assert obj["event_id"] instanceof java.lang.String: null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[28-06-2024T12:21:58 - [TEST_SUITE][PASSED] - Industry Risk Rating: Test Cases/Validate Data Type]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>
